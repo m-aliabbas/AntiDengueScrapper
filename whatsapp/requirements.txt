@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+neonize
+pandas
+selenium
+webdriver-manager
+python-dotenv

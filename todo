@@ -1,0 +1,23 @@
+# flow 1 login to punjab tracking dashboard
+1. go to https://dashboard-tracking.punjab.gov.pk/
+2. goto //*[@id="user_username"] add username sed.chk
+3. goto //*[@id="user_password"] add password chakwal@951
+4. extract the text from /html/body/div/div/div/div/div/div/form/div[3]/div/div/span
+4.1 text will be What is 7 + 3? etc (there will be two numbers always)
+4.2 extract the two numbers and calculate the sum
+4.3 goto //*[@id="captcha"] add the sum calculated in step 4.2
+5. click on /html/body/div/div/div/div/div/div/form/button
+6. wait for page to load
+7. stop there
+
+
+# flow 2 after login goto tracking page
+1. after login goto https://dashboard-tracking.punjab.gov.pk/user_wise_larva_report
+2. from this dropdown click //*[@id="district_id"] select Chakwal wait for 4 sec
+3. from this dropdown select //*[@id="date_range"] select Today wait for 4 sec
+4. click on //*[@id="link-dormant"] 
+5. wait for 10 sec
+6. click on //*[@id="btn-export-csv"]
+7. we will get csv file downloaded
+8 save this csv
+9. stop there
