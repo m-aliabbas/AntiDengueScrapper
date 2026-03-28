@@ -79,7 +79,7 @@ def wait_for_download(download_dir: str, start_ts: float, timeout: int = 180) ->
     exts = {".xls", ".xlsx", ".csv"}
     
     print(f"⏳ Waiting 15 seconds for download to complete...")
-    time.sleep(15)
+    time.sleep(10)
     
     print(f"🔍 Looking for XLS/CSV files created in last 2 minutes in: {d}")
     
@@ -129,7 +129,7 @@ def select_by_visible_text(wait: WebDriverWait, by, locator: str, text: str):
 def safe_js_click(driver, wait: WebDriverWait, by, locator: str):
     el = wait.until(EC.element_to_be_clickable((by, locator)))
     driver.execute_script("arguments[0].scrollIntoView({block:'center'});", el)
-    time.sleep(5.0)
+    time.sleep(2.5)
     driver.execute_script("arguments[0].click();", el)
     return el
 
@@ -231,7 +231,7 @@ def login_to_dashboard_and_download(headless: bool = False) -> str:
         safe_js_click(driver, wait, By.XPATH, "/html/body/div/div/div/div/div/div/form/button")
 
         # Wait a little until dashboard loads
-        time.sleep(5)
+        time.sleep(1)
         print("✅ Login completed.")
         print("🔎 Current URL:", driver.current_url)
         print("🔎 Title:", driver.title)
