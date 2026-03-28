@@ -55,7 +55,7 @@ def setup_driver(download_dir: str, headless: bool = False) -> webdriver.Chrome:
     except Exception:
         pass
 
-    print("✅ Forced download dir:", download_dir)
+    print("OK: Forced download dir:", download_dir)
     return driver
 
 
@@ -78,10 +78,10 @@ def wait_for_download(download_dir: str, start_ts: float, timeout: int = 180) ->
     d = Path(download_dir).resolve()
     exts = {".xls", ".xlsx", ".csv"}
     
-    print(f"⏳ Waiting 15 seconds for download to complete...")
+    print("Waiting 15 seconds for download to complete...")
     time.sleep(10)
     
-    print(f"🔍 Looking for XLS/CSV files created in last 2 minutes in: {d}")
+    print(f"Looking for XLS/CSV files created in last 2 minutes in: {d}")
     
     now = time.time()
     two_minutes_ago = now - 120  # 2 minutes = 120 seconds
@@ -93,7 +93,7 @@ def wait_for_download(download_dir: str, start_ts: float, timeout: int = 180) ->
         
         # Skip .crdownload and other incomplete files
         if p.suffix.lower() == ".crdownload" or ".crdownload" in p.name:
-            print(f"⏭️  Skipping incomplete: {p.name}")
+            print(f"Skipping incomplete: {p.name}")
             continue
             
         try:
@@ -103,18 +103,18 @@ def wait_for_download(download_dir: str, start_ts: float, timeout: int = 180) ->
             # Must be right extension, recent, and have content
             if p.suffix.lower() in exts and file_mtime >= two_minutes_ago and file_size > 0:
                 candidates.append(p)
-                print(f"📄 Found: {p.name} (size: {file_size} bytes, modified: {time.ctime(file_mtime)})")
+                print(f"Found: {p.name} (size: {file_size} bytes, modified: {time.ctime(file_mtime)})")
         except Exception as e:
-            print(f"⚠️ Error checking file {p}: {e}")
+            print(f"Warning: Error checking file {p}: {e}")
     
     if not candidates:
-        print(f"❌ No valid .xls/.xlsx/.csv file found in last 2 minutes")
+        print("Error: No valid .xls/.xlsx/.csv file found in last 2 minutes")
         return None
     
     # Return the newest one
     candidates.sort(key=lambda p: p.stat().st_mtime, reverse=True)
     newest = candidates[0]
-    print(f"✅ Using newest file: {newest.name}")
+    print(f"OK: Using newest file: {newest.name}")
     return str(newest.resolve())
 
 
@@ -140,18 +140,18 @@ def safe_js_click(driver, wait: WebDriverWait, by, locator: str):
 def go_to_tracking_page_and_download(driver: webdriver.Chrome, wait: WebDriverWait, download_dir: str) -> str:
     # Clean up old XLS/CSV files before starting
     d = Path(download_dir)
-    print("🧹 Cleaning old XLS/CSV files from downloads directory...")
+    print("Cleaning old XLS/CSV files from downloads directory...")
     
     cleaned_count = 0
     # Use glob to find XLS, XLSX, CSV files
     for pattern in ["*.xls", "*.xlsx", "*.csv", "*.XLS", "*.XLSX", "*.CSV"]:
         for old_file in d.glob(pattern):
             try:
-                print(f"🗑️ Removing: {old_file.name}")
+                print(f"Removing: {old_file.name}")
                 old_file.unlink()
                 cleaned_count += 1
             except Exception as e:
-                print(f"⚠️ Could not remove {old_file.name}: {e}")
+                print(f"Warning: Could not remove {old_file.name}: {e}")
     
     print(f"✓ Cleaned {cleaned_count} file(s)")
     
@@ -174,27 +174,27 @@ def go_to_tracking_page_and_download(driver: webdriver.Chrome, wait: WebDriverWa
         try:
             t0 = time.time()
             safe_js_click(driver, wait, By.ID, "btn-export-csv")  # same button even if it exports xls
-            print(f"📥 Export clicked (attempt {attempt})... waiting download")
+            print(f"Export clicked (attempt {attempt})... waiting download")
 
             downloaded_path = wait_for_download(download_dir, start_ts=t0, timeout=180)
             if downloaded_path:
                 return downloaded_path
             else:
-                print(f"⚠️ No valid file detected on attempt {attempt}")
+                print(f"Warning: No valid file detected on attempt {attempt}")
 
         except UnexpectedAlertPresentException:
             msg = accept_alert_if_present(driver)
-            print("⚠️ Alert accepted:", msg)
+            print("Warning: Alert accepted:", msg)
 
             # Re-apply date range and retry
             try:
                 select_by_visible_text(wait, By.ID, "date_range", "Today")
             except Exception as e:
-                print("⚠️ Failed to re-select date range:", e)
+                print("Warning: Failed to re-select date range:", e)
 
         except TimeoutException as e:
             # Something didn't appear; retry
-            print("⚠️ Timeout while clicking/exporting, retrying:", e)
+            print("Warning: Timeout while clicking/exporting, retrying:", e)
 
     raise RuntimeError("Failed to export after multiple attempts.")
 
@@ -216,13 +216,13 @@ def login_to_dashboard_and_download(headless: bool = False) -> str:
             EC.presence_of_element_located((By.XPATH, "/html/body/div/div/div/div/div/div/form/div[3]/div/div/span"))
         )
         captcha_text = captcha_text_el.text.strip()
-        print("🧩 Captcha:", captcha_text)
+        print("Captcha:", captcha_text)
 
         ans = extract_numbers_and_calculate(captcha_text)
         if ans is None:
             raise RuntimeError(f"Could not parse captcha: {captcha_text}")
 
-        print("✅ Captcha answer:", ans)
+        print("OK: Captcha answer:", ans)
         cap_inp = wait.until(EC.presence_of_element_located((By.ID, "captcha")))
         cap_inp.clear()
         cap_inp.send_keys(str(ans))
@@ -232,13 +232,13 @@ def login_to_dashboard_and_download(headless: bool = False) -> str:
 
         # Wait a little until dashboard loads
         time.sleep(1)
-        print("✅ Login completed.")
-        print("🔎 Current URL:", driver.current_url)
-        print("🔎 Title:", driver.title)
+        print("OK: Login completed.")
+        print("Current URL:", driver.current_url)
+        print("Title:", driver.title)
 
         # Download report
         downloaded_path = go_to_tracking_page_and_download(driver, wait, download_dir)
-        print("✅ Downloaded file:", downloaded_path)
+        print("OK: Downloaded file:", downloaded_path)
         return downloaded_path
 
     finally:
