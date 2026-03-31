@@ -153,7 +153,7 @@ def go_to_tracking_page_and_download(driver: webdriver.Chrome, wait: WebDriverWa
             except Exception as e:
                 print(f"Warning: Could not remove {old_file.name}: {e}")
     
-    print(f"✓ Cleaned {cleaned_count} file(s)")
+    print(f"Cleaned {cleaned_count} file(s)")
     
     driver.get("https://dashboard-tracking.punjab.gov.pk/user_wise_larva_report")
 

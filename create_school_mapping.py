@@ -20,12 +20,12 @@ def create_school_mapping(xlsx_file_path, output_json="school_emis_json_mapping.
         # Read the XLSX file
         df = pd.read_excel(xlsx_file_path)
         
-        print(f"✅ File loaded successfully. Found {len(df)} rows")
-        print(f"📋 Columns: {df.columns.tolist()}")
+        print(f"File loaded successfully. Found {len(df)} rows")
+        print(f"Columns: {df.columns.tolist()}")
         
         # Check if required columns exist
         if "EMIS Code" not in df.columns or "School Name" not in df.columns:
-            print("❌ Error: Required columns 'EMIS Code' and 'School Name' not found")
+            print("Error: Required columns 'EMIS Code' and 'School Name' not found")
             print(f"Available columns: {df.columns.tolist()}")
             return False
         
@@ -57,19 +57,19 @@ def create_school_mapping(xlsx_file_path, output_json="school_emis_json_mapping.
             else:
                 skipped += 1
         
-        print(f"✅ Created mapping with {len(mapping)} entries")
+        print(f"Created mapping with {len(mapping)} entries")
         if skipped > 0:
-            print(f"⚠️  Skipped {skipped} rows (invalid or empty data)")
+            print(f"Skipped {skipped} rows (invalid or empty data)")
         
         # Save to JSON file
         with open(output_json, 'w', encoding='utf-8') as f:
             json.dump(mapping, f, ensure_ascii=False, indent=2)
         
-        print(f"✅ JSON file created: {output_json}")
+        print(f"JSON file created: {output_json}")
         
         # Show sample entries
         if mapping:
-            print("\n📝 Sample entries:")
+            print("\n Sample entries:")
             for i, (emis, school) in enumerate(list(mapping.items())[:5]):
                 print(f"  {emis}: {school}")
             if len(mapping) > 5:
@@ -78,7 +78,7 @@ def create_school_mapping(xlsx_file_path, output_json="school_emis_json_mapping.
         return True
         
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f"Error: {e}")
         import traceback
         traceback.print_exc()
         return False
@@ -95,7 +95,7 @@ if __name__ == "__main__":
     output_json = sys.argv[2] if len(sys.argv) > 2 else "school_emis_json_mapping.json"
     
     if not os.path.exists(xlsx_file):
-        print(f"❌ File not found: {xlsx_file}")
+        print(f"File not found: {xlsx_file}")
         sys.exit(1)
     
     success = create_school_mapping(xlsx_file, output_json)

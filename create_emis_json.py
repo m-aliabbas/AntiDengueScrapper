@@ -45,8 +45,8 @@ def create_emis_to_school_json():
         with open(json_filename, 'w', encoding='utf-8') as jsonfile:
             json.dump(emis_to_school, jsonfile, ensure_ascii=False, indent=2)
         
-        print(f"✅ JSON mapping created successfully: {json_filename}")
-        print(f"📊 Total unique schools: {len(emis_to_school)}")
+        print(f"JSON mapping created successfully: {json_filename}")
+        print(f"Total unique schools: {len(emis_to_school)}")
         
         # Show first few entries as preview
         print("\n🔍 Sample entries:")

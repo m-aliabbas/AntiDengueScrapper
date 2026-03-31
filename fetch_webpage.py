@@ -63,8 +63,8 @@ if __name__ == "__main__":
     result = fetch_and_save_webpage(url, wait_time_minutes=2)
     
     if result:
-        print(f"\n✅ Success! HTML content saved to: {result}")
+        print(f"Success! HTML content saved to: {result}")
     else:
-        print("\n❌ Failed to fetch and save webpage")
+        print("\Failed to fetch and save webpage")
     
     print("=" * 80)
