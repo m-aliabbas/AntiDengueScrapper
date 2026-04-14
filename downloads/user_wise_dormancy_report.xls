@@ -1,2 +1,709 @@
 Sr No,Department,District,Tehsil,Username,Simple Activities,Patient Activities,Vector Surveillance Activities,Larvae Case Response,Total Activities
-1,School Education Department,Chakwal,Kalar Kahar,37440102.chakwal.sed(ishrat shaheen),0,0,0,0,0
+1,School Education Department,Chakwal,Kalar Kahar,37440396.se(Faheem),0,0,0,0,0
+2,School Education Department,Chakwal,Kalar Kahar,37440175.se(atiqa naeem),0,0,0,0,0
+3,School Education Department,Chakwal,Talagang,37420513.se(saima),0,0,0,0,0
+4,School Education Department,Chakwal,Talagang,37420243.se(Muhammad Ramzan),0,0,0,0,0
+5,School Education Department,Chakwal,Talagang,37420227.se(wasim),0,0,0,0,0
+6,School Education Department,Chakwal,Talagang,37420211.se(GES DK BAZA),0,0,0,0,0
+7,School Education Department,Chakwal,Chakwal,37410816.se(saiqa khalid),0,0,0,0,0
+8,School Education Department,Chakwal,Chakwal,37410780.se(shumaila serwat),0,0,0,0,0
+9,School Education Department,Chakwal,Chakwal,37410573.se(Bushra Naz),0,0,0,0,0
+10,School Education Department,Chakwal,Chakwal,37410529.se(Mehreen Sajjad),0,0,0,0,0
+11,School Education Department,Chakwal,Chakwal,37410528.se(saadia Majeed),0,0,0,0,0
+12,School Education Department,Chakwal,Chakwal,37410527.se(Govt School),0,0,0,0,0
+13,School Education Department,Chakwal,Chakwal,37410525.se(Nargis Parveen),0,0,0,0,0
+14,School Education Department,Chakwal,Chakwal,37410520.se(farzana),0,0,0,0,0
+15,School Education Department,Chakwal,Chakwal,37410469.se(Muddasar yasmin),0,0,0,0,0
+16,School Education Department,Chakwal,Chakwal,37410402.se(Hira Nazir),0,0,0,0,0
+17,School Education Department,Chakwal,Chakwal,37410147.se(Mehwish Firdous),0,0,0,0,0
+18,School Education Department,Chakwal,Talagang,37410004.se(ISRAR Ul HaQ),0,0,0,0,0
+19,School Education Department,Chakwal,Kalar Kahar,37440850.chakwal.sed(ali hassan),0,0,0,0,0
+20,School Education Department,Chakwal,Kalar Kahar,37440806.chakwal.sed(Huma Noureen),0,0,0,0,0
+21,School Education Department,Chakwal,Kalar Kahar,37440804.chakwal.sed(Mukhtar begum),0,0,0,0,0
+22,School Education Department,Chakwal,Kalar Kahar,37440801.chakwal.sed(attiya aslam),0,0,0,0,0
+23,School Education Department,Chakwal,Kalar Kahar,37440800.chakwal.sed(madina batool),0,0,0,0,0
+24,School Education Department,Chakwal,Kalar Kahar,37440786.chakwal.sed(Danish ahmad),0,0,0,0,0
+25,School Education Department,Chakwal,Kalar Kahar,37440782.chakwal.sed(Qaiser Farooq),0,0,0,0,0
+26,School Education Department,Chakwal,Kalar Kahar,37440777.chakwal.sed(Tehseenakhter),0,0,0,0,0
+27,School Education Department,Chakwal,Kalar Kahar,37440776.chakwal.sed(Arifa jabeen),0,0,0,0,0
+28,School Education Department,Chakwal,Kalar Kahar,37440672.chakwal.sed(Qirrat Nazli),0,0,0,0,0
+29,School Education Department,Chakwal,Kalar Kahar,37440668.chakwal.sed(Matan kalan),0,0,0,0,0
+30,School Education Department,Chakwal,Kalar Kahar,37440667.chakwal.sed(nadia Ashraf),0,0,0,0,0
+31,School Education Department,Chakwal,Kalar Kahar,37440666.chakwal.sed(aqsa maqbool),0,0,0,0,0
+32,School Education Department,Chakwal,Kalar Kahar,37440665.chakwal.sed(Syeda Rimsha Kausar),0,0,0,0,0
+33,School Education Department,Chakwal,Kalar Kahar,37440663.chakwal.sed(ambreen),0,0,0,0,0
+34,School Education Department,Chakwal,Kalar Kahar,37440662.chakwal.sed(gghs sarkaln),0,0,0,0,0
+35,School Education Department,Chakwal,Kalar Kahar,37440661.chakwal.sed(Bhall),0,0,0,0,0
+36,School Education Department,Chakwal,Kalar Kahar,37440657.chakwal.sed(Aziz Fatimq),0,0,0,0,0
+37,School Education Department,Chakwal,Kalar Kahar,37440654.chakwal.sed(GGPS Sardhi),0,0,0,0,0
+38,School Education Department,Chakwal,Kalar Kahar,37440653.chakwal.sed(wasama javed),0,0,0,0,0
+39,School Education Department,Chakwal,Kalar Kahar,37440652.chakwal.sed(Amna Maqsood Malik),0,0,0,0,0
+40,School Education Department,Chakwal,Kalar Kahar,37440650.chakwal.sed(Bushra zahra),0,0,0,0,0
+41,School Education Department,Chakwal,Kalar Kahar,37440648.chakwal.sed(Andeela Farhad),0,0,0,0,0
+42,School Education Department,Chakwal,Kalar Kahar,37440647.chakwal.sed(Ggps Miani adda),0,0,0,0,0
+43,School Education Department,Chakwal,Kalar Kahar,37440646.chakwal.sed(Anti dengue),0,0,0,0,0
+44,School Education Department,Chakwal,Kalar Kahar,37440645.chakwal.sed(Sobia Nawaz),0,0,0,0,0
+45,School Education Department,Chakwal,Kalar Kahar,37440644.chakwal.sed(farzanatanveer),0,0,0,0,0
+46,School Education Department,Chakwal,Kalar Kahar,37440643.chakwal.sed(Farhat Riaz),0,0,0,0,0
+47,School Education Department,Chakwal,Kalar Kahar,37440641.chakwal.sed(asia tufail),0,0,0,0,0
+48,School Education Department,Chakwal,Kalar Kahar,37440640.chakwal.sed(ggps matan khurd),0,0,0,0,0
+49,School Education Department,Chakwal,Kalar Kahar,37440603.chakwal.sed(saima ameen),0,0,0,0,0
+50,School Education Department,Chakwal,Kalar Kahar,37440592.chakwal.sed(Saira Pervaiz),0,0,0,0,0
+51,School Education Department,Chakwal,Kalar Kahar,37440497.chakwal.sed(Zobia Tanveer),0,0,0,0,0
+52,School Education Department,Chakwal,Kalar Kahar,37440496.chakwal.sed(Mehwish Hina),0,0,0,0,0
+53,School Education Department,Chakwal,Kalar Kahar,37440495.chakwal.sed(najaf),0,0,0,0,0
+54,School Education Department,Chakwal,Kalar Kahar,37440493.chakwal.sed(Memoona jabeen),0,0,0,0,0
+55,School Education Department,Chakwal,Kalar Kahar,37440399.chakwal.sed(Abdul Shakoor),0,0,0,0,0
+56,School Education Department,Chakwal,Kalar Kahar,37440398.chakwal.sed(Raheela),0,0,0,0,0
+57,School Education Department,Chakwal,Kalar Kahar,37440397.chakwal.sed(Saina Imtiaz),0,0,0,0,0
+58,School Education Department,Chakwal,Kalar Kahar,37440395.chakwal.sed(Iqra Sadiq),0,0,0,0,0
+59,School Education Department,Chakwal,Kalar Kahar,37440393.chakwal.sed(aqsa huma),0,0,0,0,0
+60,School Education Department,Chakwal,Kalar Kahar,37440391.chakwal.sed(Arif yaqoob),0,0,0,0,0
+61,School Education Department,Chakwal,Kalar Kahar,37440390.chakwal.sed(Muhammad Farooq),0,0,0,0,0
+62,School Education Department,Chakwal,Kalar Kahar,37440386.chakwal.sed(muhammad farooq),0,0,0,0,0
+63,School Education Department,Chakwal,Kalar Kahar,37440385.chakwal.sed(Sehrish Noureen),0,0,0,0,0
+64,School Education Department,Chakwal,Kalar Kahar,37440383.chakwal.sed(safeena jabeen),0,0,0,0,0
+65,School Education Department,Chakwal,Kalar Kahar,37440374.chakwal.sed(Naila Iqbal),0,0,0,0,0
+66,School Education Department,Chakwal,Kalar Kahar,37440371.chakwal.sed(Rabail Ishfaq),0,0,0,0,0
+67,School Education Department,Chakwal,Kalar Kahar,37440369.chakwal.sed(Shumailla Sunduss),0,0,0,0,0
+68,School Education Department,Chakwal,Kalar Kahar,37440367.chakwal.sed(fauzia yasmeen),0,0,0,0,0
+69,School Education Department,Chakwal,Kalar Kahar,37440366.chakwal.sed(Sahrish Parveen),0,0,0,0,0
+70,School Education Department,Chakwal,Kalar Kahar,37440362.chakwal.sed(shehzad hussain),0,0,0,0,0
+71,School Education Department,Chakwal,Kalar Kahar,37440335.chakwal.sed(Allah Ditta),0,0,0,0,0
+72,School Education Department,Chakwal,Kalar Kahar,37440250.chakwal.sed(Tehmina kanwal),0,0,0,0,0
+73,School Education Department,Chakwal,Kalar Kahar,37440248.chakwal.sed(asif bashir),0,0,0,0,0
+74,School Education Department,Chakwal,Kalar Kahar,37440245.chakwal.sed(Abu zar Ijaz),0,0,0,0,0
+75,School Education Department,Chakwal,Kalar Kahar,37440243.chakwal.sed(Marrium Ejaz),0,0,0,0,0
+76,School Education Department,Chakwal,Kalar Kahar,37440242.chakwal.sed(saadat Amir),0,0,0,0,0
+77,School Education Department,Chakwal,Kalar Kahar,37440222.chakwal.sed(GHS HATTAR),0,0,0,0,0
+78,School Education Department,Chakwal,Kalar Kahar,37440220.chakwal.sed(asma touheed),0,0,0,0,0
+79,School Education Department,Chakwal,Kalar Kahar,37440182.chakwal.sed(mahwish shabbir),0,0,0,0,0
+80,School Education Department,Chakwal,Kalar Kahar,37440179.chakwal.sed(Sumera kausar),0,0,0,0,0
+81,School Education Department,Chakwal,Kalar Kahar,37440178.chakwal.sed(Sadia Batool),0,0,0,0,0
+82,School Education Department,Chakwal,Kalar Kahar,37440176.chakwal.sed(Sumia rasheed),0,0,0,0,0
+83,School Education Department,Chakwal,Kalar Kahar,37440174.chakwal.sed(ameer sultana),0,0,0,0,0
+84,School Education Department,Chakwal,Kalar Kahar,37440161.chakwal.sed(arifa khizar),0,0,0,0,0
+85,School Education Department,Chakwal,Kalar Kahar,37440114.chakwal.sed(GHS Sethi),0,0,0,0,0
+86,School Education Department,Chakwal,Kalar Kahar,37440113.chakwal.sed(humaira),0,0,0,0,0
+87,School Education Department,Chakwal,Kalar Kahar,37440112.chakwal.sed(Sadia Malik),0,0,0,0,0
+88,School Education Department,Chakwal,Kalar Kahar,37440111.chakwal.sed(Mehwish Aziz),0,0,0,0,0
+89,School Education Department,Chakwal,Kalar Kahar,37440107.chakwal.sed(GES WALANA),0,0,0,0,0
+90,School Education Department,Chakwal,Kalar Kahar,37440106.chakwal.sed(Shumaila jabeen),0,0,0,0,0
+91,School Education Department,Chakwal,Kalar Kahar,37440102.chakwal.sed(ishrat shaheen),0,0,0,0,0
+92,School Education Department,Chakwal,Kalar Kahar,37440081.chakwal.sed(sharjeel arshad),0,0,0,0,0
+93,School Education Department,Chakwal,Kalar Kahar,37440074.chakwal.sed(uzma mushtaq),0,0,0,0,0
+94,School Education Department,Chakwal,Kalar Kahar,37440071.chakwal.sed(samina aslam),0,0,0,0,0
+95,School Education Department,Chakwal,Kalar Kahar,37440060.chakwal.sed(Aliya),0,0,0,0,0
+96,School Education Department,Chakwal,Kalar Kahar,37440047.chakwal.sed(Shazia Zia),0,0,0,0,0
+97,School Education Department,Chakwal,Kalar Kahar,37440046.chakwal.sed(zafar),0,0,0,0,0
+98,School Education Department,Chakwal,Kalar Kahar,37440045.chakwal.sed(aqib javed),0,0,0,0,0
+99,School Education Department,Chakwal,Kalar Kahar,37440044.chakwal.sed(Ghs Noorpur),0,0,0,0,0
+100,School Education Department,Chakwal,Kalar Kahar,37440043.chakwal.sed(Naqash Hussain Malik),0,0,0,0,0
+101,School Education Department,Chakwal,Kalar Kahar,37440042.chakwal.sed(Mansoor abbas),0,0,0,0,0
+102,School Education Department,Chakwal,Kalar Kahar,37440041.chakwal.sed(tariq mehmood),0,0,0,0,0
+103,School Education Department,Chakwal,Kalar Kahar,37440040.chakwal.sed(SAJID HUSSAIN  SST Science),0,0,0,0,0
+104,School Education Department,Chakwal,Kalar Kahar,37440025.chakwal.sed(Ahmad Nadeem Khawaja),0,0,0,0,0
+105,School Education Department,Chakwal,Kalar Kahar,37440007.chakwal.sed(saira sajjad),0,0,0,0,0
+106,School Education Department,Chakwal,Kalar Kahar,37440006.chakwal.sed(Ammara Farooq),0,0,0,0,0
+107,School Education Department,Chakwal,Kalar Kahar,37440002.chakwal.sed(Attiq Ur Rehman),0,0,0,0,0
+108,School Education Department,Chakwal,Choa Saiden Shah,37430149.chakwal.sed(Ali Kamran),0,0,0,0,0
+109,School Education Department,Chakwal,Choa Saiden Shah,37430110.chakwal.sed(nasir kmal),0,0,0,0,0
+110,School Education Department,Chakwal,Choa Saiden Shah,37430107.chakwal.sed(shahida parveen),0,0,0,0,0
+111,School Education Department,Chakwal,Choa Saiden Shah,37430099.chakwal.sed(Arbah badar),0,0,0,0,0
+112,School Education Department,Chakwal,Choa Saiden Shah,37430098.chakwal.sed(Sahar sultana),0,0,0,0,0
+113,School Education Department,Chakwal,Choa Saiden Shah,37430096.chakwal.sed(Saba rafiq),0,0,0,0,0
+114,School Education Department,Chakwal,Choa Saiden Shah,37430095.chakwal.sed(Anam Naz),0,0,0,0,0
+115,School Education Department,Chakwal,Choa Saiden Shah,37430093.chakwal.sed(Umi farfara),0,0,0,0,0
+116,School Education Department,Chakwal,Choa Saiden Shah,37430092.chakwal.sed(Farkhanda nisar),0,0,0,0,0
+117,School Education Department,Chakwal,Choa Saiden Shah,37430090.chakwal.sed(Lubna shabbir),0,0,0,0,0
+118,School Education Department,Chakwal,Choa Saiden Shah,37430087.chakwal.sed(Habiba Sultana),0,0,0,0,0
+119,School Education Department,Chakwal,Choa Saiden Shah,37430085.chakwal.sed(Attia hussain),0,0,0,0,0
+120,School Education Department,Chakwal,Choa Saiden Shah,37430084.chakwal.sed(shahista mazhar),0,0,0,0,0
+121,School Education Department,Chakwal,Choa Saiden Shah,37430083.chakwal.sed(Safia Ansar),0,0,0,0,0
+122,School Education Department,Chakwal,Choa Saiden Shah,37430080.chakwal.sed(Maria Afreen),0,0,0,0,0
+123,School Education Department,Chakwal,Choa Saiden Shah,37430076.chakwal.sed(Amjad Hussain),0,0,0,0,0
+124,School Education Department,Chakwal,Choa Saiden Shah,37430075.chakwal.sed(Rizwana Suleman),0,0,0,0,0
+125,School Education Department,Chakwal,Choa Saiden Shah,37430070.chakwal.sed(Maryum nisa),0,0,0,0,0
+126,School Education Department,Chakwal,Choa Saiden Shah,37430067.chakwal.sed(Fehmeeda Javed),0,0,0,0,0
+127,School Education Department,Chakwal,Choa Saiden Shah,37430066.chakwal.sed(Sadia yasmeen),0,0,0,0,0
+128,School Education Department,Chakwal,Choa Saiden Shah,37430065.chakwal.sed(Tania Saleem),0,0,0,0,0
+129,School Education Department,Chakwal,Choa Saiden Shah,37430063.chakwal.sed(Misbah Noureen),0,0,0,0,0
+130,School Education Department,Chakwal,Choa Saiden Shah,37430061.chakwal.sed(zamiza Hina),0,0,0,0,0
+131,School Education Department,Chakwal,Choa Saiden Shah,37430060.chakwal.sed(Nosheen Khalid),0,0,0,0,0
+132,School Education Department,Chakwal,Choa Saiden Shah,37430055.chakwal.sed(Memona kanwal),0,0,0,0,0
+133,School Education Department,Chakwal,Choa Saiden Shah,37430053.chakwal.sed(M Waqas javed),0,0,0,0,0
+134,School Education Department,Chakwal,Choa Saiden Shah,37430052.chakwal.sed(Amber Abbas),0,0,0,0,0
+135,School Education Department,Chakwal,Choa Saiden Shah,37430048.chakwal.sed(Sumera iram),0,0,0,0,0
+136,School Education Department,Chakwal,Choa Saiden Shah,37430045.chakwal.sed(Ammara Mobeen),0,0,0,0,0
+137,School Education Department,Chakwal,Choa Saiden Shah,37430037.chakwal.sed(Sumaira yasmin),0,0,0,0,0
+138,School Education Department,Chakwal,Choa Saiden Shah,37430035.chakwal.sed(Waseem Raza),0,0,0,0,0
+139,School Education Department,Chakwal,Choa Saiden Shah,37430034.chakwal.sed(Aroosa Jabeen),0,0,0,0,0
+140,School Education Department,Chakwal,Talagang,37430028.chakwal.sed(Arif Hussain),0,0,0,0,0
+141,School Education Department,Chakwal,Talagang,37430026.chakwal.sed(GGHS ratucha),0,0,0,0,0
+142,School Education Department,Chakwal,Choa Saiden Shah,37430025.chakwal.sed(Riffat shamshir),0,0,0,0,0
+143,School Education Department,Chakwal,Choa Saiden Shah,37430024.chakwal.sed(samana bataool),0,0,0,0,0
+144,School Education Department,Chakwal,Choa Saiden Shah,37430023.chakwal.sed(rukhsana tabassum),0,0,0,0,0
+145,School Education Department,Chakwal,Choa Saiden Shah,37430022.chakwal.sed(GGHS LEHR),0,0,0,0,0
+146,School Education Department,Chakwal,Talagang,37430019.chakwal.sed(Samra Mushtaq),0,0,0,0,0
+147,School Education Department,Chakwal,Choa Saiden Shah,37430018.chakwal.sed(ashiq Hussain),0,0,0,0,0
+148,School Education Department,Chakwal,Choa Saiden Shah,37430017.chakwal.sed(Nazneen Akhtar),0,0,0,0,0
+149,School Education Department,Chakwal,Talagang,37430016.chakwal.sed(Muhammad Owais Ashraf),0,0,0,0,0
+150,School Education Department,Chakwal,Talagang,37430014.chakwal.sed(Muhammad Saeed),0,0,0,0,0
+151,School Education Department,Chakwal,Choa Saiden Shah,37430013.chakwal.sed(Tauseef fatima),0,0,0,0,0
+152,School Education Department,Chakwal,Choa Saiden Shah,37430012.chakwal.sed(Amina kausar),0,0,0,0,0
+153,School Education Department,Chakwal,Choa Saiden Shah,37430011.chakwal.sed(Kausar Batool),0,0,0,0,0
+154,School Education Department,Chakwal,Talagang,37430010.chakwal.sed(Asmana kausar),0,0,0,0,0
+155,School Education Department,Chakwal,Talagang,37430009.chakwal.sed(Mehmood Ul hassan),0,0,0,0,0
+156,School Education Department,Chakwal,Choa Saiden Shah,37430008.chakwal.sed(Nasir Mehmood),0,0,0,0,0
+157,School Education Department,Chakwal,Talagang,37430007.chakwal.sed(Ahsan Raza),0,0,0,0,0
+158,School Education Department,Chakwal,Talagang,37430005.chakwal.sed(Rifhat Nawab),0,0,0,0,0
+159,School Education Department,Chakwal,Choa Saiden Shah,37430004.chakwal.sed(Abdul hammad),0,0,0,0,0
+160,School Education Department,Chakwal,Talagang,37430003.chakwal.sed(shakeela munir),0,0,0,0,0
+161,School Education Department,Chakwal,Talagang,37430002.chakwal.sed(Abdullah abid),0,0,0,0,0
+162,School Education Department,Chakwal,Talagang,37430001.chakwal.sed(Samreen sadiq),0,0,0,0,0
+163,School Education Department,Chakwal,Talagang,37420505.chakwal.sed(nayyar usman),0,0,0,0,0
+164,School Education Department,Chakwal,Talagang,37420498.chakwal.sed(GES dk Gattal Bhagtal),0,0,0,0,0
+165,School Education Department,Chakwal,Talagang,37420496.chakwal.sed(Ansa Bibi),0,0,0,0,0
+166,School Education Department,Chakwal,Talagang,37420474.chakwal.sed(nauman zafar),0,0,0,0,0
+167,School Education Department,Chakwal,Talagang,37420473.chakwal.sed(Mukhtar Shabir),0,0,0,0,0
+168,School Education Department,Chakwal,Talagang,37420463.chakwal.sed(Zafar Iqbal),0,0,0,0,0
+169,School Education Department,Chakwal,Talagang,37420447.chakwal.sed(Muhammad Asad),0,0,0,0,0
+170,School Education Department,Chakwal,Talagang,37420438.chakwal.sed(Summaya Kalsoom),0,0,0,0,0
+171,School Education Department,Chakwal,Talagang,37420437.chakwal.sed(saeeda),0,0,0,0,0
+172,School Education Department,Chakwal,Talagang,37420433.chakwal.sed(Fakhar ul Islam),0,0,0,0,0
+173,School Education Department,Chakwal,Talagang,37420424.chakwal.sed(Tehmina rafi),0,0,0,0,0
+174,School Education Department,Chakwal,Talagang,37420423.chakwal.sed(Sehrish Kanwal),0,0,0,0,0
+175,School Education Department,Chakwal,Talagang,37420421.chakwal.sed(Ishrat Fatima),0,0,0,0,0
+176,School Education Department,Chakwal,Talagang,37420420.chakwal.sed(kaniz Fatima),0,0,0,0,0
+177,School Education Department,Chakwal,Talagang,37420419.chakwal.sed(Madeeha Hashmat),0,0,0,0,0
+178,School Education Department,Chakwal,Talagang,37420416.chakwal.sed(Farhat Sultan),0,0,0,0,0
+179,School Education Department,Chakwal,Talagang,37420414.chakwal.sed(Ggps dhok pira),0,0,0,0,0
+180,School Education Department,Chakwal,Talagang,37420413.chakwal.sed(summan rafique),0,0,0,0,0
+181,School Education Department,Chakwal,Talagang,37420412.chakwal.sed(Rubina),0,0,0,0,0
+182,School Education Department,Chakwal,Talagang,37420411.chakwal.sed(Rifat zahra),0,0,0,0,0
+183,School Education Department,Chakwal,Talagang,37420410.chakwal.sed(GGPS Murali),0,0,0,0,0
+184,School Education Department,Chakwal,Talagang,37420408.chakwal.sed(Adeela itbar),0,0,0,0,0
+185,School Education Department,Chakwal,Talagang,37420407.chakwal.sed(Amara Hussain),0,0,0,0,0
+186,School Education Department,Chakwal,Talagang,37420403.chakwal.sed(lubna),0,0,0,0,0
+187,School Education Department,Chakwal,Talagang,37420399.chakwal.sed(Kiran Malik),0,0,0,0,0
+188,School Education Department,Chakwal,Talagang,37420398.chakwal.sed(Sadia Yasmin),0,0,0,0,0
+189,School Education Department,Chakwal,Talagang,37420396.chakwal.sed(ggps ban ellahi),0,0,0,0,0
+190,School Education Department,Chakwal,Talagang,37420393.chakwal.sed(Robina Shaheen),0,0,0,0,0
+191,School Education Department,Chakwal,Talagang,37420392.chakwal.sed(Samreena Riaz),0,0,0,0,0
+192,School Education Department,Chakwal,Talagang,37420391.chakwal.sed(Tayyaba Tariq),0,0,0,0,0
+193,School Education Department,Chakwal,Talagang,37420389.chakwal.sed(Humaira Rafique),0,0,0,0,0
+194,School Education Department,Chakwal,Talagang,37420385.chakwal.sed(sehrish Tauqeer),0,0,0,0,0
+195,School Education Department,Chakwal,Talagang,37420381.chakwal.sed(laraib anam),0,0,0,0,0
+196,School Education Department,Chakwal,Talagang,37420380.chakwal.sed(sadaf Rasheed),0,0,0,0,0
+197,School Education Department,Chakwal,Talagang,37420379.chakwal.sed(Rabia),0,0,0,0,0
+198,School Education Department,Chakwal,Talagang,37420377.chakwal.sed(Tayba Tahira),0,0,0,0,0
+199,School Education Department,Chakwal,Talagang,37420375.chakwal.sed(Riaz Akhtar),0,0,0,0,0
+200,School Education Department,Chakwal,Talagang,37420374.chakwal.sed(saba zahra),0,0,0,0,0
+201,School Education Department,Chakwal,Talagang,37420373.chakwal.sed(FarzanaAnjum),0,0,0,0,0
+202,School Education Department,Chakwal,Talagang,37420372.chakwal.sed(Fozia Shakir),0,0,0,0,0
+203,School Education Department,Chakwal,Talagang,37420371.chakwal.sed(Bushra Feroze),0,0,0,0,0
+204,School Education Department,Chakwal,Talagang,37420370.chakwal.sed(Amna Gukbaz),0,0,0,0,0
+205,School Education Department,Chakwal,Talagang,37420368.chakwal.sed(Shahid a batool),0,0,0,0,0
+206,School Education Department,Chakwal,Talagang,37420367.chakwal.sed(kiran),0,0,0,0,0
+207,School Education Department,Chakwal,Talagang,37420366.chakwal.sed(Amna Rubab),0,0,0,0,0
+208,School Education Department,Chakwal,Talagang,37420365.chakwal.sed(shehnaz Akhtar),0,0,0,0,0
+209,School Education Department,Chakwal,Talagang,37420362.chakwal.sed(Andleeb Fatima),0,0,0,0,0
+210,School Education Department,Chakwal,Talagang,37420361.chakwal.sed(Rabia Ijaz),0,0,0,0,0
+211,School Education Department,Chakwal,Talagang,37420360.chakwal.sed(Nadia Iqbal),0,0,0,0,0
+212,School Education Department,Chakwal,Talagang,37420359.chakwal.sed(Robina Shagufta),0,0,0,0,0
+213,School Education Department,Chakwal,Talagang,37420356.chakwal.sed(Fakhra Sikandr),0,0,0,0,0
+214,School Education Department,Chakwal,Talagang,37420323.chakwal.sed(Uzma Fatima),0,0,0,0,0
+215,School Education Department,Chakwal,Talagang,37420313.chakwal.sed(Shaheen Akhter),0,0,0,0,0
+216,School Education Department,Chakwal,Talagang,37420312.chakwal.sed(Tahira Yasmin),0,0,0,0,0
+217,School Education Department,Chakwal,Talagang,37420309.chakwal.sed(Amna bibi),0,0,0,0,0
+218,School Education Department,Chakwal,Talagang,37420298.chakwal.sed(sarwerzahara),0,0,0,0,0
+219,School Education Department,Chakwal,Talagang,37420294.chakwal.sed(Sadia Bibi),0,0,0,0,0
+220,School Education Department,Chakwal,Talagang,37420289.chakwal.sed(Anjum Noreen),0,0,0,0,0
+221,School Education Department,Chakwal,Talagang,37420287.chakwal.sed(balqees akhtar),0,0,0,0,0
+222,School Education Department,Chakwal,Talagang,37420286.chakwal.sed(Bushra saeed),0,0,0,0,0
+223,School Education Department,Chakwal,Talagang,37420285.chakwal.sed(Amina sabih),0,0,0,0,0
+224,School Education Department,Chakwal,Talagang,37420284.chakwal.sed(alishba),0,0,0,0,0
+225,School Education Department,Chakwal,Talagang,37420283.chakwal.sed(sumera Yasmeen),0,0,0,0,0
+226,School Education Department,Chakwal,Talagang,37420280.chakwal.sed(Uzma Yasmeen),0,0,0,0,0
+227,School Education Department,Chakwal,Talagang,37420279.chakwal.sed(Rafea Shaheen),0,0,0,0,0
+228,School Education Department,Chakwal,Talagang,37420276.chakwal.sed(Ume Salma),0,0,0,0,0
+229,School Education Department,Chakwal,Talagang,37420274.chakwal.sed(bushra hayat),0,0,0,0,0
+230,School Education Department,Chakwal,Talagang,37420273.chakwal.sed(nasim zahra),0,0,0,0,0
+231,School Education Department,Chakwal,Talagang,37420272.chakwal.sed(Tasleem kousar),0,0,0,0,0
+232,School Education Department,Chakwal,Talagang,37420271.chakwal.sed(Nargis Khatoon),0,0,0,0,0
+233,School Education Department,Chakwal,Talagang,37420270.chakwal.sed(ggps Nikki chooi),0,0,0,0,0
+234,School Education Department,Chakwal,Talagang,37420268.chakwal.sed(haq nawaz),0,0,0,0,0
+235,School Education Department,Chakwal,Talagang,37420267.chakwal.sed(Tanveer Hussain),0,0,0,0,0
+236,School Education Department,Chakwal,Talagang,37420259.chakwal.sed(Naveed ur Rehman Ahmad),0,0,0,0,0
+237,School Education Department,Chakwal,Talagang,37420258.chakwal.sed(Adnan ahmed),0,0,0,0,0
+238,School Education Department,Chakwal,Talagang,37420257.chakwal.sed(Muhammad Asad Ali),0,0,0,0,0
+239,School Education Department,Chakwal,Talagang,37420256.chakwal.sed(Muhammad Waqas),0,0,0,0,0
+240,School Education Department,Chakwal,Talagang,37420255.chakwal.sed(Arshad Mehmood),0,0,0,0,0
+241,School Education Department,Chakwal,Talagang,37420250.chakwal.sed(TAHIRA PERVEEN),0,0,0,0,0
+242,School Education Department,Chakwal,Talagang,37420249.chakwal.sed(m afzal),0,0,0,0,0
+243,School Education Department,Chakwal,Talagang,37420248.chakwal.sed(liaqat ali khan),0,0,0,0,0
+244,School Education Department,Chakwal,Talagang,37420244.chakwal.sed(Ahsan Mujtaba),0,0,0,0,0
+245,School Education Department,Chakwal,Talagang,37420239.chakwal.sed(Sundas andleeb),0,0,0,0,0
+246,School Education Department,Chakwal,Talagang,37420238.chakwal.sed(Zahid Abbass),0,0,0,0,0
+247,School Education Department,Chakwal,Talagang,37420234.chakwal.sed(SAJID MUNIR),0,0,0,0,0
+248,School Education Department,Chakwal,Talagang,37420228.chakwal.sed(M saad sadiq),0,0,0,0,0
+249,School Education Department,Chakwal,Talagang,37420226.chakwal.sed(atta ur rahman),0,0,0,0,0
+250,School Education Department,Chakwal,Talagang,37420225.chakwal.sed(sajjad Hussain),0,0,0,0,0
+251,School Education Department,Chakwal,Talagang,37420220.chakwal.sed(m shakeel),0,0,0,0,0
+252,School Education Department,Chakwal,Talagang,37420218.chakwal.sed(Mubashir Hassan),0,0,0,0,0
+253,School Education Department,Chakwal,Talagang,37420217.chakwal.sed(Munaza yasmeen),0,0,0,0,0
+254,School Education Department,Chakwal,Talagang,37420212.chakwal.sed(Mansoor Ellahi),0,0,0,0,0
+255,School Education Department,Chakwal,Talagang,37420206.chakwal.sed(Noureen akhter),0,0,0,0,0
+256,School Education Department,Chakwal,Talagang,37420205.chakwal.sed(Atif shehzad),0,0,0,0,0
+257,School Education Department,Chakwal,Talagang,37420201.chakwal.sed(Imran Saleem),0,0,0,0,0
+258,School Education Department,Chakwal,Talagang,37420198.chakwal.sed(ARSALAN HAYYAT),0,0,0,0,0
+259,School Education Department,Chakwal,Talagang,37420197.chakwal.sed(Raheela Shamim),0,0,0,0,0
+260,School Education Department,Chakwal,Talagang,37420150.chakwal.sed(Hafiz Muhammad Tariq Aziz),0,0,0,0,0
+261,School Education Department,Chakwal,Talagang,37420147.chakwal.sed(Muhammad Faisal Arif),0,0,0,0,0
+262,School Education Department,Chakwal,Talagang,37420144.chakwal.sed(Muhammad Umar Malik),0,0,0,0,0
+263,School Education Department,Chakwal,Talagang,37420143.chakwal.sed(Muhammad Usman),0,0,0,0,0
+264,School Education Department,Chakwal,Talagang,37420142.chakwal.sed(Amjad Obaid ullah),0,0,0,0,0
+265,School Education Department,Chakwal,Talagang,37420140.chakwal.sed(Ghazala Noreen),0,0,0,0,0
+266,School Education Department,Chakwal,Talagang,37420132.chakwal.sed(Muhammad zulqurnain haider),0,0,0,0,0
+267,School Education Department,Chakwal,Talagang,37420128.chakwal.sed(Jabir hussain),0,0,0,0,0
+268,School Education Department,Chakwal,Talagang,37420119.chakwal.sed(MALIK MUHAMMAD SHAHZAD),0,0,0,0,0
+269,School Education Department,Chakwal,Talagang,37420117.chakwal.sed(Iffat Saba),0,0,0,0,0
+270,School Education Department,Chakwal,Talagang,37420116.chakwal.sed(Amina Ameer),0,0,0,0,0
+271,School Education Department,Chakwal,Talagang,37420112.chakwal.sed(Muhammad Umar),0,0,0,0,0
+272,School Education Department,Chakwal,Talagang,37420110.chakwal.sed(Hafiz Muhammad Waseem iqbal),0,0,0,0,0
+273,School Education Department,Chakwal,Talagang,37420108.chakwal.sed(Noureen akhtar),0,0,0,0,0
+274,School Education Department,Chakwal,Talagang,37420106.chakwal.sed(samina yasmeen),0,0,0,0,0
+275,School Education Department,Chakwal,Talagang,37420105.chakwal.sed(Shaista malik),0,0,0,0,0
+276,School Education Department,Chakwal,Talagang,37420104.chakwal.sed(Marzia Tamkeen),0,0,0,0,0
+277,School Education Department,Chakwal,Talagang,37420103.chakwal.sed(farzana nawaz),0,0,0,0,0
+278,School Education Department,Chakwal,Talagang,37420101.chakwal.sed(maria kanwal),0,0,0,0,0
+279,School Education Department,Chakwal,Talagang,37420100.chakwal.sed(Samara kanwal),0,0,0,0,0
+280,School Education Department,Chakwal,Talagang,37420099.chakwal.sed(azhar malik),0,0,0,0,0
+281,School Education Department,Chakwal,Talagang,37420098.chakwal.sed(kanwal Naiz),0,0,0,0,0
+282,School Education Department,Chakwal,Talagang,37420097.chakwal.sed(saima Batool),0,0,0,0,0
+283,School Education Department,Chakwal,Talagang,37420096.chakwal.sed(irum bibi),0,0,0,0,0
+284,School Education Department,Chakwal,Talagang,37420095.chakwal.sed(samina jamil),0,0,0,0,0
+285,School Education Department,Chakwal,Talagang,37420094.chakwal.sed(zoona sabah),0,0,0,0,0
+286,School Education Department,Chakwal,Talagang,37420093.chakwal.sed(Ruzbah Nawaz),0,0,0,0,0
+287,School Education Department,Chakwal,Talagang,37420092.chakwal.sed(Nuzhat Yasmeen),0,0,0,0,0
+288,School Education Department,Chakwal,Talagang,37420091.chakwal.sed(Francis Minhas),0,0,0,0,0
+289,School Education Department,Chakwal,Talagang,37420090.chakwal.sed(azra),0,0,0,0,0
+290,School Education Department,Chakwal,Talagang,37420089.chakwal.sed(gghs),0,0,0,0,0
+291,School Education Department,Chakwal,Talagang,37420087.chakwal.sed(Naseem akhtar),0,0,0,0,0
+292,School Education Department,Chakwal,Talagang,37420086.chakwal.sed(gghs dhulli),0,0,0,0,0
+293,School Education Department,Chakwal,Talagang,37420084.chakwal.sed(Ayesha),0,0,0,0,0
+294,School Education Department,Chakwal,Talagang,37420081.chakwal.sed(Taskeen akhtar jan),0,0,0,0,0
+295,School Education Department,Chakwal,Talagang,37420080.chakwal.sed(mahk bibi),0,0,0,0,0
+296,School Education Department,Chakwal,Talagang,37420079.chakwal.sed(Bakhtawar pervaiz),0,0,0,0,0
+297,School Education Department,Chakwal,Talagang,37420078.chakwal.sed(Muhammad usman),0,0,0,0,0
+298,School Education Department,Chakwal,Talagang,37420077.chakwal.sed(Muhammad Bilal),0,0,0,0,0
+299,School Education Department,Chakwal,Talagang,37420076.chakwal.sed(naziajabeen),0,0,0,0,0
+300,School Education Department,Chakwal,Talagang,37420075.chakwal.sed(Tariq Saeed),0,0,0,0,0
+301,School Education Department,Chakwal,Talagang,37420073.chakwal.sed(Aamir Hussain),0,0,0,0,0
+302,School Education Department,Chakwal,Talagang,37420072.chakwal.sed(Abdul Qadeer),0,0,0,0,0
+303,School Education Department,Chakwal,Talagang,37420070.chakwal.sed(Saifullah),0,0,0,0,0
+304,School Education Department,Chakwal,Talagang,37420069.chakwal.sed(Muhammad Shehryar),0,0,0,0,0
+305,School Education Department,Chakwal,Talagang,37420068.chakwal.sed(Muhammad wasim),0,0,0,0,0
+306,School Education Department,Chakwal,Talagang,37420067.chakwal.sed(Muhammad Saeed Tariq),0,0,0,0,0
+307,School Education Department,Chakwal,Talagang,37420066.chakwal.sed(aqeela zahoor),0,0,0,0,0
+308,School Education Department,Chakwal,Talagang,37420059.chakwal.sed(Muhammad Saeed),0,0,0,0,0
+309,School Education Department,Chakwal,Talagang,37420058.chakwal.sed(Muhammad Javed iqbal),0,0,0,0,0
+310,School Education Department,Chakwal,Talagang,37420057.chakwal.sed(MUHAMMAD ARSHAD),0,0,0,0,0
+311,School Education Department,Chakwal,Talagang,37420054.chakwal.sed(Amir Haider),0,0,0,0,0
+312,School Education Department,Chakwal,Talagang,37420053.chakwal.sed(Rizwan Asif),0,0,0,0,0
+313,School Education Department,Chakwal,Talagang,37420049.chakwal.sed(M Ali Abbas),0,0,0,0,0
+314,School Education Department,Chakwal,Talagang,37420047.chakwal.sed(Rabia Taj),0,0,0,0,0
+315,School Education Department,Chakwal,Talagang,37420046.chakwal.sed(Iram yasmeen),0,0,0,0,0
+316,School Education Department,Chakwal,Talagang,37420045.chakwal.sed(Nasim sultana),0,0,0,0,0
+317,School Education Department,Chakwal,Talagang,37420044.chakwal.sed(Bushra hetam),0,0,0,0,0
+318,School Education Department,Chakwal,Talagang,37420040.chakwal.sed(SHAZIA NOUREEN),0,0,0,0,0
+319,School Education Department,Chakwal,Talagang,37420039.chakwal.sed(shaguftanoreengm naureen),0,0,0,0,0
+320,School Education Department,Chakwal,Talagang,37420038.chakwal.sed(shazia zahoor),0,0,0,0,0
+321,School Education Department,Chakwal,Talagang,37420037.chakwal.sed(gghsstmk),0,0,0,0,0
+322,School Education Department,Chakwal,Talagang,37420036.chakwal.sed(aroosa azhar),0,0,0,0,0
+323,School Education Department,Chakwal,Talagang,37420035.chakwal.sed(gill pathani),0,0,0,0,0
+324,School Education Department,Chakwal,Talagang,37420034.chakwal.sed(sohail nadeem),0,0,0,0,0
+325,School Education Department,Chakwal,Talagang,37420033.chakwal.sed(Malik Rameez Iqbal),0,0,0,0,0
+326,School Education Department,Chakwal,Talagang,37420032.chakwal.sed(Zamir Ul Haq),0,0,0,0,0
+327,School Education Department,Chakwal,Talagang,37420031.chakwal.sed(Muhammad Saqib Shahab),0,0,0,0,0
+328,School Education Department,Chakwal,Talagang,37420030.chakwal.sed(Faisal muhammad hayat),0,0,0,0,0
+329,School Education Department,Chakwal,Talagang,37420029.chakwal.sed(Touqeer Ahmed),0,0,0,0,0
+330,School Education Department,Chakwal,Talagang,37420028.chakwal.sed(Arif Mehmood),0,0,0,0,0
+331,School Education Department,Chakwal,Talagang,37420027.chakwal.sed(Dr Rafiq Shahid),0,0,0,0,0
+332,School Education Department,Chakwal,Talagang,37420026.chakwal.sed(Arsalan Ali),0,0,0,0,0
+333,School Education Department,Chakwal,Talagang,37420025.chakwal.sed(Muhammad Asif),0,0,0,0,0
+334,School Education Department,Chakwal,Talagang,37420024.chakwal.sed(Aamir Ijaz),0,0,0,0,0
+335,School Education Department,Chakwal,Talagang,37420023.chakwal.sed(Muhammad Adil),0,0,0,0,0
+336,School Education Department,Chakwal,Talagang,37420022.chakwal.sed(Muhammad Saqlain),0,0,0,0,0
+337,School Education Department,Chakwal,Talagang,37420021.chakwal.sed(Muhammad Nasir),0,0,0,0,0
+338,School Education Department,Chakwal,Talagang,37420020.chakwal.sed(nazakat hussain),0,0,0,0,0
+339,School Education Department,Chakwal,Talagang,37420018.chakwal.sed(Syed Adil Mustafa),0,0,0,0,0
+340,School Education Department,Chakwal,Talagang,37420015.chakwal.sed(Muhammad Raheel),0,0,0,0,0
+341,School Education Department,Chakwal,Talagang,37420014.chakwal.sed(faizan ahmed),0,0,0,0,0
+342,School Education Department,Chakwal,Talagang,37420013.chakwal.sed(sohail akbar),0,0,0,0,0
+343,School Education Department,Chakwal,Talagang,37420012.chakwal.sed(Habib Khan),0,0,0,0,0
+344,School Education Department,Chakwal,Talagang,37420010.chakwal.sed(Umar saeed),0,0,0,0,0
+345,School Education Department,Chakwal,Talagang,37420009.chakwal.sed(asad),0,0,0,0,0
+346,School Education Department,Chakwal,Talagang,37420008.chakwal.sed(Sajida Amin),0,0,0,0,0
+347,School Education Department,Chakwal,Talagang,37420007.chakwal.sed(Muhammad Nisar),0,0,0,0,0
+348,School Education Department,Chakwal,Talagang,37420006.chakwal.sed(Irshad Ali),0,0,0,0,0
+349,School Education Department,Chakwal,Talagang,37420004.chakwal.sed(GGHSS LAWA),0,0,0,0,0
+350,School Education Department,Chakwal,Talagang,37420003.chakwal.sed(zaheer ud din),0,0,0,0,0
+351,School Education Department,Chakwal,Talagang,37420002.chakwal.sed(Shah Ameer Nauman),0,0,0,0,0
+352,School Education Department,Chakwal,Talagang,37420001.chakwal.sed(ubaid ur rehman),0,0,0,0,0
+353,School Education Department,Chakwal,Chakwal,37410825.chakwal.sed(Azhar hussain),0,0,0,0,0
+354,School Education Department,Chakwal,Chakwal,37410824.chakwal.sed(ambreen Raana),0,0,0,0,0
+355,School Education Department,Chakwal,Chakwal,37410818.chakwal.sed(Tayyaba ali),0,0,0,0,0
+356,School Education Department,Chakwal,Chakwal,37410814.chakwal.sed(Muhammad Umair),0,0,0,0,0
+357,School Education Department,Chakwal,Chakwal,37410799.chakwal.sed(lubna tabassum),0,0,0,0,0
+358,School Education Department,Chakwal,Chakwal,37410785.chakwal.sed(Manzoor Hussain),0,0,0,0,0
+359,School Education Department,Chakwal,Chakwal,37410783.chakwal.sed(uzma naz),0,0,0,0,0
+360,School Education Department,Chakwal,Chakwal,37410779.chakwal.sed(Farzana Tahir),0,0,0,0,0
+361,School Education Department,Chakwal,Chakwal,37410778.chakwal.sed(asia parveen),0,0,0,0,0
+362,School Education Department,Chakwal,Chakwal,37410772.chakwal.sed(Sajid Mehmood),0,0,0,0,0
+363,School Education Department,Chakwal,Chakwal,37410725.chakwal.sed(Iram Atta),0,0,0,0,0
+364,School Education Department,Chakwal,Chakwal,37410724.chakwal.sed(Fehmida batool),0,0,0,0,0
+365,School Education Department,Chakwal,Chakwal,37410721.chakwal.sed(Muqadsa Batool),0,0,0,0,0
+366,School Education Department,Chakwal,Chakwal,37410719.chakwal.sed(Mariam Iqbal),0,0,0,0,0
+367,School Education Department,Chakwal,Chakwal,37410716.chakwal.sed(NOORULAIN),0,0,0,0,0
+368,School Education Department,Chakwal,Chakwal,37410715.chakwal.sed(Iqra),0,0,0,0,0
+369,School Education Department,Chakwal,Chakwal,37410712.chakwal.sed(Amna Hafeez),0,0,0,0,0
+370,School Education Department,Chakwal,Chakwal,37410709.chakwal.sed(uzma Tabbasam),0,0,0,0,0
+371,School Education Department,Chakwal,Chakwal,37410707.chakwal.sed(yasir hussain),0,0,0,0,0
+372,School Education Department,Chakwal,Chakwal,37410706.chakwal.sed(Nazia Imtiaz),0,0,0,0,0
+373,School Education Department,Chakwal,Chakwal,37410705.chakwal.sed(Aaliya),0,0,0,0,0
+374,School Education Department,Chakwal,Chakwal,37410703.chakwal.sed(ITRAT BATOOL),0,0,0,0,0
+375,School Education Department,Chakwal,Chakwal,37410701.chakwal.sed(Seemab kiran),0,0,0,0,0
+376,School Education Department,Chakwal,Chakwal,37410700.chakwal.sed(Ggps harar),0,0,0,0,0
+377,School Education Department,Chakwal,Chakwal,37410696.chakwal.sed(Mehjabeen Sadaf),0,0,0,0,0
+378,School Education Department,Chakwal,Chakwal,37410688.chakwal.sed(dangue app),0,0,0,0,0
+379,School Education Department,Chakwal,Chakwal,37410686.chakwal.sed(Areeba Munir),0,0,0,0,0
+380,School Education Department,Chakwal,Chakwal,37410685.chakwal.sed(uzma parveen),0,0,0,0,0
+381,School Education Department,Chakwal,Chakwal,37410680.chakwal.sed(Rubina Yasmeen),0,0,0,0,0
+382,School Education Department,Chakwal,Chakwal,37410676.chakwal.sed(Asma Naz),0,0,0,0,0
+383,School Education Department,Chakwal,Chakwal,37410675.chakwal.sed(Safia Majeed),0,0,0,0,0
+384,School Education Department,Chakwal,Chakwal,37410637.chakwal.sed(Rakhshanda iqbal),0,0,0,0,0
+385,School Education Department,Chakwal,Chakwal,37410636.chakwal.sed(munwar jan),0,0,0,0,0
+386,School Education Department,Chakwal,Chakwal,37410635.chakwal.sed(Shagufta Shaheen Akhtar),0,0,0,0,0
+387,School Education Department,Chakwal,Chakwal,37410634.chakwal.sed(Sajida Bibi),0,0,0,0,0
+388,School Education Department,Chakwal,Chakwal,37410630.chakwal.sed(samina yasmin),0,0,0,0,0
+389,School Education Department,Chakwal,Chakwal,37410627.chakwal.sed(Ramsha Rubab),0,0,0,0,0
+390,School Education Department,Chakwal,Chakwal,37410626.chakwal.sed(ggps dhok maikan),0,0,0,0,0
+391,School Education Department,Chakwal,Chakwal,37410625.chakwal.sed(Ume kalsoom),0,0,0,0,0
+392,School Education Department,Chakwal,Chakwal,37410624.chakwal.sed(Aziz Ayesha),0,0,0,0,0
+393,School Education Department,Chakwal,Chakwal,37410615.chakwal.sed(Ghulam Fizza),0,0,0,0,0
+394,School Education Department,Chakwal,Chakwal,37410614.chakwal.sed(zainab Nazir),0,0,0,0,0
+395,School Education Department,Chakwal,Chakwal,37410612.chakwal.sed(sajila Naveed),0,0,0,0,0
+396,School Education Department,Chakwal,Chakwal,37410610.chakwal.sed(Sara Zainab),0,0,0,0,0
+397,School Education Department,Chakwal,Chakwal,37410609.chakwal.sed(Lubna Bibi),0,0,0,0,0
+398,School Education Department,Chakwal,Chakwal,37410608.chakwal.sed(Shagufta Shaheen),0,0,0,0,0
+399,School Education Department,Chakwal,Chakwal,37410607.chakwal.sed(Ume Salma),0,0,0,0,0
+400,School Education Department,Chakwal,Chakwal,37410606.chakwal.sed(Sadaf Nawab),0,0,0,0,0
+401,School Education Department,Chakwal,Chakwal,37410599.chakwal.sed(jamila),0,0,0,0,0
+402,School Education Department,Chakwal,Chakwal,37410598.chakwal.sed(Humera Ilyas),0,0,0,0,0
+403,School Education Department,Chakwal,Chakwal,37410580.chakwal.sed(Saman Mukhtar),0,0,0,0,0
+404,School Education Department,Chakwal,Chakwal,37410578.chakwal.sed(Farah Mohsin),0,0,0,0,0
+405,School Education Department,Chakwal,Chakwal,37410575.chakwal.sed(saba gul),0,0,0,0,0
+406,School Education Department,Chakwal,Chakwal,37410574.chakwal.sed(Irum Naureen),0,0,0,0,0
+407,School Education Department,Chakwal,Chakwal,37410571.chakwal.sed(fouzia yasmin),0,0,0,0,0
+408,School Education Department,Chakwal,Chakwal,37410568.chakwal.sed(Shakeela Batool),0,0,0,0,0
+409,School Education Department,Chakwal,Chakwal,37410567.chakwal.sed(Taskeen Zahrah),0,0,0,0,0
+410,School Education Department,Chakwal,Chakwal,37410566.chakwal.sed(Assma bibi),0,0,0,0,0
+411,School Education Department,Chakwal,Chakwal,37410565.chakwal.sed(haleema sadia),0,0,0,0,0
+412,School Education Department,Chakwal,Chakwal,37410564.chakwal.sed(sobia Yasmin),0,0,0,0,0
+413,School Education Department,Chakwal,Chakwal,37410563.chakwal.sed(Saira iqraz),0,0,0,0,0
+414,School Education Department,Chakwal,Chakwal,37410561.chakwal.sed(Sabahat Rashid Khan),0,0,0,0,0
+415,School Education Department,Chakwal,Chakwal,37410560.chakwal.sed(irshad begum),0,0,0,0,0
+416,School Education Department,Chakwal,Chakwal,37410558.chakwal.sed(Memoona yasmeen),0,0,0,0,0
+417,School Education Department,Chakwal,Chakwal,37410556.chakwal.sed(shuamila Iqbal),0,0,0,0,0
+418,School Education Department,Chakwal,Chakwal,37410555.chakwal.sed(AqsaRubaTariq),0,0,0,0,0
+419,School Education Department,Chakwal,Chakwal,37410554.chakwal.sed(Humera Riaz),0,0,0,0,0
+420,School Education Department,Chakwal,Chakwal,37410549.chakwal.sed(babrasultana),0,0,0,0,0
+421,School Education Department,Chakwal,Chakwal,37410545.chakwal.sed(Maryam Ansar),0,0,0,0,0
+422,School Education Department,Chakwal,Chakwal,37410543.chakwal.sed(sanjila kousar),0,0,0,0,0
+423,School Education Department,Chakwal,Chakwal,37410534.chakwal.sed(nagina yasmeen),0,0,0,0,0
+424,School Education Department,Chakwal,Chakwal,37410522.chakwal.sed(Sana habib),0,0,0,0,0
+425,School Education Department,Chakwal,Chakwal,37410521.chakwal.sed(Gulnaz Hayat),0,0,0,0,0
+426,School Education Department,Chakwal,Chakwal,37410519.chakwal.sed(Navida Tariq),0,0,0,0,0
+427,School Education Department,Chakwal,Chakwal,37410518.chakwal.sed(Isma Owais),0,0,0,0,0
+428,School Education Department,Chakwal,Chakwal,37410516.chakwal.sed(GGPS Pindi Gujran),0,0,0,0,0
+429,School Education Department,Chakwal,Chakwal,37410514.chakwal.sed(Sundas Rehna),0,0,0,0,0
+430,School Education Department,Chakwal,Chakwal,37410511.chakwal.sed(sobia Manzoor),0,0,0,0,0
+431,School Education Department,Chakwal,Chakwal,37410507.chakwal.sed(neelum un nisa),0,0,0,0,0
+432,School Education Department,Chakwal,Chakwal,37410502.chakwal.sed(Aamna Bibi),0,0,0,0,0
+433,School Education Department,Chakwal,Chakwal,37410501.chakwal.sed(GGMES Noorwal),0,0,0,0,0
+434,School Education Department,Chakwal,Chakwal,37410500.chakwal.sed(Almas Safdar),0,0,0,0,0
+435,School Education Department,Chakwal,Chakwal,37410499.chakwal.sed(saba pervez),0,0,0,0,0
+436,School Education Department,Chakwal,Chakwal,37410487.chakwal.sed(mehwish javaid),0,0,0,0,0
+437,School Education Department,Chakwal,Chakwal,37410486.chakwal.sed(sadia),0,0,0,0,0
+438,School Education Department,Chakwal,Chakwal,37410485.chakwal.sed(Ghulam Ruqqia),0,0,0,0,0
+439,School Education Department,Chakwal,Chakwal,37410483.chakwal.sed(Asma Aziz),0,0,0,0,0
+440,School Education Department,Chakwal,Chakwal,37410482.chakwal.sed(Maria Tanveer),0,0,0,0,0
+441,School Education Department,Chakwal,Chakwal,37410481.chakwal.sed(Aisha Noureen),0,0,0,0,0
+442,School Education Department,Chakwal,Chakwal,37410479.chakwal.sed(Suneela Irum),0,0,0,0,0
+443,School Education Department,Chakwal,Chakwal,37410476.chakwal.sed(Iram Siddique),0,0,0,0,0
+444,School Education Department,Chakwal,Chakwal,37410475.chakwal.sed(Sumaira Afsar),0,0,0,0,0
+445,School Education Department,Chakwal,Chakwal,37410474.chakwal.sed(Ambreen Riaz),0,0,0,0,0
+446,School Education Department,Chakwal,Chakwal,37410473.chakwal.sed(Nosheen mustafa),0,0,0,0,0
+447,School Education Department,Chakwal,Chakwal,37410472.chakwal.sed(Aneesa),0,0,0,0,0
+448,School Education Department,Chakwal,Chakwal,37410471.chakwal.sed(Rubina Nasir),0,0,0,0,0
+449,School Education Department,Chakwal,Chakwal,37410470.chakwal.sed(Shameem Ur Rehman),0,0,0,0,0
+450,School Education Department,Chakwal,Chakwal,37410466.chakwal.sed(Sanam khurshid),0,0,0,0,0
+451,School Education Department,Chakwal,Chakwal,37410465.chakwal.sed(Ayesha Mushtaq),0,0,0,0,0
+452,School Education Department,Chakwal,Chakwal,37410463.chakwal.sed(saima aziz),0,0,0,0,0
+453,School Education Department,Chakwal,Chakwal,37410459.chakwal.sed(Farhana haider),0,0,0,0,0
+454,School Education Department,Chakwal,Chakwal,37410458.chakwal.sed(fozia razzaq),0,0,0,0,0
+455,School Education Department,Chakwal,Chakwal,37410456.chakwal.sed(sana batool),0,0,0,0,0
+456,School Education Department,Chakwal,Chakwal,37410455.chakwal.sed(sobia khalil),0,0,0,0,0
+457,School Education Department,Chakwal,Chakwal,37410454.chakwal.sed(sidra batool),0,0,0,0,0
+458,School Education Department,Chakwal,Chakwal,37410453.chakwal.sed(Yasmin Akhtar),0,0,0,0,0
+459,School Education Department,Chakwal,Chakwal,37410452.chakwal.sed(Farzana),0,0,0,0,0
+460,School Education Department,Chakwal,Chakwal,37410451.chakwal.sed(abidakulsoom),0,0,0,0,0
+461,School Education Department,Chakwal,Chakwal,37410450.chakwal.sed(adeela Sadaf),0,0,0,0,0
+462,School Education Department,Chakwal,Chakwal,37410449.chakwal.sed(Aziza Begum),0,0,0,0,0
+463,School Education Department,Chakwal,Chakwal,37410448.chakwal.sed(shehla sajjad),0,0,0,0,0
+464,School Education Department,Chakwal,Chakwal,37410447.chakwal.sed(Nazia Kausar),0,0,0,0,0
+465,School Education Department,Chakwal,Chakwal,37410442.chakwal.sed(Zara Iqbal),0,0,0,0,0
+466,School Education Department,Chakwal,Chakwal,37410441.chakwal.sed(Afsana Batool),0,0,0,0,0
+467,School Education Department,Chakwal,Chakwal,37410436.chakwal.sed(Abdul waheed),0,0,0,0,0
+468,School Education Department,Chakwal,Chakwal,37410434.chakwal.sed(GES sarkal kassar),0,0,0,0,0
+469,School Education Department,Chakwal,Chakwal,37410430.chakwal.sed(GPS Pinwal),0,0,0,0,0
+470,School Education Department,Chakwal,Chakwal,37410429.chakwal.sed(Samina Afsar),0,0,0,0,0
+471,School Education Department,Chakwal,Chakwal,37410427.chakwal.sed(muhammad bilal),0,0,0,0,0
+472,School Education Department,Chakwal,Chakwal,37410426.chakwal.sed(Asim Kamran),0,0,0,0,0
+473,School Education Department,Chakwal,Chakwal,37410416.chakwal.sed(Nasira Batool),0,0,0,0,0
+474,School Education Department,Chakwal,Chakwal,37410413.chakwal.sed(Muhammad qasim),0,0,0,0,0
+475,School Education Department,Chakwal,Chakwal,37410401.chakwal.sed(Mehreen Iftikhar),0,0,0,0,0
+476,School Education Department,Chakwal,Chakwal,37410348.chakwal.sed(kashif mustafa),0,0,0,0,0
+477,School Education Department,Chakwal,Chakwal,37410347.chakwal.sed(mumtaz ul haq),0,0,0,0,0
+478,School Education Department,Chakwal,Chakwal,37410346.chakwal.sed(Rizwan ul hassan),0,0,0,0,0
+479,School Education Department,Chakwal,Chakwal,37410343.chakwal.sed(Asma Batool),0,0,0,0,0
+480,School Education Department,Chakwal,Chakwal,37410342.chakwal.sed(Adila rohban),0,0,0,0,0
+481,School Education Department,Chakwal,Chakwal,37410339.chakwal.sed(ume habiba),0,0,0,0,0
+482,School Education Department,Chakwal,Chakwal,37410337.chakwal.sed(iqram Waseem),0,0,0,0,0
+483,School Education Department,Chakwal,Chakwal,37410333.chakwal.sed(muhammad umair),0,0,0,0,0
+484,School Education Department,Chakwal,Chakwal,37410329.chakwal.sed(Ishtiaq Hussain),0,0,0,0,0
+485,School Education Department,Chakwal,Chakwal,37410328.chakwal.sed(Ghs sidhar),0,0,0,0,0
+486,School Education Department,Chakwal,Chakwal,37410318.chakwal.sed(Misbah Javaid),0,0,0,0,0
+487,School Education Department,Chakwal,Chakwal,37410313.chakwal.sed(Rukhsana Kausar),0,0,0,0,0
+488,School Education Department,Chakwal,Chakwal,37410301.chakwal.sed(Nafeesa Safdar),0,0,0,0,0
+489,School Education Department,Chakwal,Chakwal,37410295.chakwal.sed(syed khurram abbas),0,0,0,0,0
+490,School Education Department,Chakwal,Chakwal,37410293.chakwal.sed(Muhammad Haseeb Zafar),0,0,0,0,0
+491,School Education Department,Chakwal,Chakwal,37410291.chakwal.sed(Aftab),0,0,0,0,0
+492,School Education Department,Chakwal,Chakwal,37410289.chakwal.sed(Hassan Ali),0,0,0,0,0
+493,School Education Department,Chakwal,Chakwal,37410288.chakwal.sed(Shaukat Hussain),0,0,0,0,0
+494,School Education Department,Chakwal,Chakwal,37410282.chakwal.sed(usba hassan),0,0,0,0,0
+495,School Education Department,Chakwal,Chakwal,37410281.chakwal.sed(israr ulhaq),0,0,0,0,0
+496,School Education Department,Chakwal,Chakwal,37410278.chakwal.sed(zeeshan saleem),0,0,0,0,0
+497,School Education Department,Chakwal,Chakwal,37410275.chakwal.sed(Muhammad Naeem Tabassam),0,0,0,0,0
+498,School Education Department,Chakwal,Chakwal,37410274.chakwal.sed(Sajid Hussain),0,0,0,0,0
+499,School Education Department,Chakwal,Chakwal,37410272.chakwal.sed(zulfiqar Hussain),0,0,0,0,0
+500,School Education Department,Chakwal,Chakwal,37410269.chakwal.sed(irfan ahmed),0,0,0,0,0
+501,School Education Department,Chakwal,Chakwal,37410267.chakwal.sed(Salma iram),0,0,0,0,0
+502,School Education Department,Chakwal,Chakwal,37410263.chakwal.sed(Muhammad Mobeen Asghar),0,0,0,0,0
+503,School Education Department,Chakwal,Chakwal,37410262.chakwal.sed(Addila Naureen),0,0,0,0,0
+504,School Education Department,Chakwal,Chakwal,37410260.chakwal.sed(ROBINA KAUSAR),0,0,0,0,0
+505,School Education Department,Chakwal,Chakwal,37410256.chakwal.sed(Adeela),0,0,0,0,0
+506,School Education Department,Chakwal,Chakwal,37410253.chakwal.sed(Muhammad waseem khan),0,0,0,0,0
+507,School Education Department,Chakwal,Chakwal,37410231.chakwal.sed(Faisal Nadeem),0,0,0,0,0
+508,School Education Department,Chakwal,Chakwal,37410228.chakwal.sed(lubna),0,0,0,0,0
+509,School Education Department,Chakwal,Chakwal,37410226.chakwal.sed(Mansoor Anjum),0,0,0,0,0
+510,School Education Department,Chakwal,Chakwal,37410213.chakwal.sed(muhammad umer),0,0,0,0,0
+511,School Education Department,Chakwal,Chakwal,37410206.chakwal.sed(Saira Jabeen),0,0,0,0,0
+512,School Education Department,Chakwal,Chakwal,37410205.chakwal.sed(faryal),0,0,0,0,0
+513,School Education Department,Chakwal,Chakwal,37410204.chakwal.sed(muneeba Raza),0,0,0,0,0
+514,School Education Department,Chakwal,Chakwal,37410203.chakwal.sed(Asma Zia),0,0,0,0,0
+515,School Education Department,Chakwal,Chakwal,37410199.chakwal.sed(shahida Parveen),0,0,0,0,0
+516,School Education Department,Chakwal,Chakwal,37410198.chakwal.sed(naveeda begum),0,0,0,0,0
+517,School Education Department,Chakwal,Chakwal,37410197.chakwal.sed(Farhat Jahan),0,0,0,0,0
+518,School Education Department,Chakwal,Chakwal,37410196.chakwal.sed(Adil mehmood),0,0,0,0,0
+519,School Education Department,Chakwal,Chakwal,37410195.chakwal.sed(Sunehra),0,0,0,0,0
+520,School Education Department,Chakwal,Chakwal,37410194.chakwal.sed(khalida bibi),0,0,0,0,0
+521,School Education Department,Chakwal,Chakwal,37410192.chakwal.sed(Farhat Batool),0,0,0,0,0
+522,School Education Department,Chakwal,Chakwal,37410191.chakwal.sed(farzana Shaheen),0,0,0,0,0
+523,School Education Department,Chakwal,Chakwal,37410190.chakwal.sed(Naheed Fatima),0,0,0,0,0
+524,School Education Department,Chakwal,Chakwal,37410188.chakwal.sed(Mubeen kausar),0,0,0,0,0
+525,School Education Department,Chakwal,Chakwal,37410184.chakwal.sed(Uzma Sajjad),0,0,0,0,0
+526,School Education Department,Chakwal,Chakwal,37410183.chakwal.sed(Rakhshanda Saba),0,0,0,0,0
+527,School Education Department,Chakwal,Chakwal,37410173.chakwal.sed(GGES Bikhari),0,0,0,0,0
+528,School Education Department,Chakwal,Chakwal,37410172.chakwal.sed(zohra bibi),0,0,0,0,0
+529,School Education Department,Chakwal,Chakwal,37410171.chakwal.sed(madiha anjum),0,0,0,0,0
+530,School Education Department,Chakwal,Chakwal,37410170.chakwal.sed(Madeeha shahzad),0,0,0,0,0
+531,School Education Department,Chakwal,Chakwal,37410169.chakwal.sed(Reema bibi),0,0,0,0,0
+532,School Education Department,Chakwal,Chakwal,37410168.chakwal.sed(Shahbaz Ali Khan),0,0,0,0,0
+533,School Education Department,Chakwal,Chakwal,37410166.chakwal.sed(shakeela amjad),0,0,0,0,0
+534,School Education Department,Chakwal,Chakwal,37410165.chakwal.sed(NAWAZISH ALI),0,0,0,0,0
+535,School Education Department,Chakwal,Chakwal,37410164.chakwal.sed(uroosa nazir),0,0,0,0,0
+536,School Education Department,Chakwal,Chakwal,37410163.chakwal.sed(Somiah Shaheen),0,0,0,0,0
+537,School Education Department,Chakwal,Chakwal,37410160.chakwal.sed(sajida parveen),0,0,0,0,0
+538,School Education Department,Chakwal,Chakwal,37410159.chakwal.sed(saira jabeen),0,0,0,0,0
+539,School Education Department,Chakwal,Chakwal,37410157.chakwal.sed(imran kaousar),0,0,0,0,0
+540,School Education Department,Chakwal,Chakwal,37410156.chakwal.sed(Maria Nosheen),0,0,0,0,0
+541,School Education Department,Chakwal,Chakwal,37410155.chakwal.sed(Rizwana Kausar),0,0,0,0,0
+542,School Education Department,Chakwal,Chakwal,37410154.chakwal.sed(saima Rashied),0,0,0,0,0
+543,School Education Department,Chakwal,Chakwal,37410152.chakwal.sed(fakhra),0,0,0,0,0
+544,School Education Department,Chakwal,Chakwal,37410151.chakwal.sed(Rukhsana shaheen),0,0,0,0,0
+545,School Education Department,Chakwal,Chakwal,37410150.chakwal.sed(sadia),0,0,0,0,0
+546,School Education Department,Chakwal,Chakwal,37410149.chakwal.sed(zain),0,0,0,0,0
+547,School Education Department,Chakwal,Chakwal,37410148.chakwal.sed(snia mehmood),0,0,0,0,0
+548,School Education Department,Chakwal,Chakwal,37410146.chakwal.sed(Sidra Shaheen),0,0,0,0,0
+549,School Education Department,Chakwal,Chakwal,37410144.chakwal.sed(GGES PhOtaki),0,0,0,0,0
+550,School Education Department,Chakwal,Chakwal,37410143.chakwal.sed(haroon ur Rehman),0,0,0,0,0
+551,School Education Department,Chakwal,Chakwal,37410142.chakwal.sed(samina bibi),0,0,0,0,0
+552,School Education Department,Chakwal,Chakwal,37410141.chakwal.sed(ballokassar),0,0,0,0,0
+553,School Education Department,Chakwal,Chakwal,37410140.chakwal.sed(saima yasmeen),0,0,0,0,0
+554,School Education Department,Chakwal,Chakwal,37410139.chakwal.sed(Samaira Shoukat),0,0,0,0,0
+555,School Education Department,Chakwal,Chakwal,37410138.chakwal.sed(UMMIHABIBA),0,0,0,0,0
+556,School Education Department,Chakwal,Chakwal,37410137.chakwal.sed(ggps line park chakwal),0,0,0,0,0
+557,School Education Department,Chakwal,Chakwal,37410136.chakwal.sed(Aziz Asmat),0,0,0,0,0
+558,School Education Department,Chakwal,Chakwal,37410135.chakwal.sed(Rizwana Nahid),0,0,0,0,0
+559,School Education Department,Chakwal,Chakwal,37410134.chakwal.sed(Asma Batool),0,0,0,0,0
+560,School Education Department,Chakwal,Chakwal,37410133.chakwal.sed(Aqsa Nousheen),0,0,0,0,0
+561,School Education Department,Chakwal,Chakwal,37410131.chakwal.sed(Asma Naheed),0,0,0,0,0
+562,School Education Department,Chakwal,Chakwal,37410130.chakwal.sed(shahnaz akhter),0,0,0,0,0
+563,School Education Department,Chakwal,Chakwal,37410129.chakwal.sed(Habib Akhtar),0,0,0,0,0
+564,School Education Department,Chakwal,Chakwal,37410128.chakwal.sed(Farzana Bibi),0,0,0,0,0
+565,School Education Department,Chakwal,Chakwal,37410126.chakwal.sed(Nazma Ashraf),0,0,0,0,0
+566,School Education Department,Chakwal,Chakwal,37410125.chakwal.sed(mushtaq urrehman),0,0,0,0,0
+567,School Education Department,Chakwal,Chakwal,37410124.chakwal.sed(Abdul Basit),0,0,0,0,0
+568,School Education Department,Chakwal,Chakwal,37410122.chakwal.sed(farukh mehmood),0,0,0,0,0
+569,School Education Department,Chakwal,Chakwal,37410121.chakwal.sed(tahira raiz),0,0,0,0,0
+570,School Education Department,Chakwal,Chakwal,37410120.chakwal.sed(Jahanzeb Hassan),0,0,0,0,0
+571,School Education Department,Chakwal,Chakwal,37410119.chakwal.sed(Khuram shehzad),0,0,0,0,0
+572,School Education Department,Chakwal,Chakwal,37410118.chakwal.sed(sadia Ejaz),0,0,0,0,0
+573,School Education Department,Chakwal,Chakwal,37410117.chakwal.sed(Amna Mushtaq),0,0,0,0,0
+574,School Education Department,Chakwal,Chakwal,37410116.chakwal.sed(GHS CHAKMALOOK),0,0,0,0,0
+575,School Education Department,Chakwal,Chakwal,37410115.chakwal.sed(Omer),0,0,0,0,0
+576,School Education Department,Chakwal,Chakwal,37410109.chakwal.sed(Arshad Mehmood),0,0,0,0,0
+577,School Education Department,Chakwal,Chakwal,37410108.chakwal.sed(Muhammad Nisar),0,0,0,0,0
+578,School Education Department,Chakwal,Chakwal,37410105.chakwal.sed(uzma noor),0,0,0,0,0
+579,School Education Department,Chakwal,Chakwal,37410104.chakwal.sed(Shahid Abbas),0,0,0,0,0
+580,School Education Department,Chakwal,Chakwal,37410103.chakwal.sed(saleem abbas),0,0,0,0,0
+581,School Education Department,Chakwal,Chakwal,37410101.chakwal.sed(muhammad zahoor),0,0,0,0,0
+582,School Education Department,Chakwal,Chakwal,37410100.chakwal.sed(Muhammad Umar),0,0,0,0,0
+583,School Education Department,Chakwal,Chakwal,37410099.chakwal.sed(Waqar Hussain),0,0,0,0,0
+584,School Education Department,Chakwal,Chakwal,37410098.chakwal.sed(Muhammad Umar Farooq),0,0,0,0,0
+585,School Education Department,Chakwal,Chakwal,37410096.chakwal.sed(Muhammad Idrees),0,0,0,0,0
+586,School Education Department,Chakwal,Chakwal,37410095.chakwal.sed(Awais),0,0,0,0,0
+587,School Education Department,Chakwal,Chakwal,37410094.chakwal.sed(Muhammad Asif),0,0,0,0,0
+588,School Education Department,Chakwal,Chakwal,37410093.chakwal.sed(Muhammad Javed),0,0,0,0,0
+589,School Education Department,Chakwal,Chakwal,37410092.chakwal.sed(M Ashfaq),0,0,0,0,0
+590,School Education Department,Chakwal,Chakwal,37410091.chakwal.sed(Habib Ur Rehman),0,0,0,0,0
+591,School Education Department,Chakwal,Chakwal,37410090.chakwal.sed(Jawad Akram),0,0,0,0,0
+592,School Education Department,Chakwal,Chakwal,37410089.chakwal.sed(fida ur rehman),0,0,0,0,0
+593,School Education Department,Chakwal,Chakwal,37410088.chakwal.sed(Muhammad Athar),0,0,0,0,0
+594,School Education Department,Chakwal,Chakwal,37410087.chakwal.sed(baseerat nosheen),0,0,0,0,0
+595,School Education Department,Chakwal,Chakwal,37410086.chakwal.sed(somia Nawaz),0,0,0,0,0
+596,School Education Department,Chakwal,Chakwal,37410085.chakwal.sed(Aaqib Naeem),0,0,0,0,0
+597,School Education Department,Chakwal,Chakwal,37410084.chakwal.sed(Ibrar Hussain),0,0,0,0,0
+598,School Education Department,Chakwal,Chakwal,37410083.chakwal.sed(shazad qamar),0,0,0,0,0
+599,School Education Department,Chakwal,Chakwal,37410080.chakwal.sed(javairia kanwal),0,0,0,0,0
+600,School Education Department,Chakwal,Chakwal,37410079.chakwal.sed(Romana begum),0,0,0,0,0
+601,School Education Department,Chakwal,Chakwal,37410078.chakwal.sed(shahnaz begum),0,0,0,0,0
+602,School Education Department,Chakwal,Chakwal,37410077.chakwal.sed(gghs nachindi),0,0,0,0,0
+603,School Education Department,Chakwal,Chakwal,37410075.chakwal.sed(Maqsood Begum),0,0,0,0,0
+604,School Education Department,Chakwal,Chakwal,37410072.chakwal.sed(Malik Muhammad Saleem Safdar),0,0,0,0,0
+605,School Education Department,Chakwal,Chakwal,37410070.chakwal.sed(Hijab Fatima),0,0,0,0,0
+606,School Education Department,Chakwal,Chakwal,37410069.chakwal.sed(Maria Iftikhar),0,0,0,0,0
+607,School Education Department,Chakwal,Chakwal,37410068.chakwal.sed(mehreen zara),0,0,0,0,0
+608,School Education Department,Chakwal,Chakwal,37410067.chakwal.sed(Rakhshanda),0,0,0,0,0
+609,School Education Department,Chakwal,Chakwal,37410066.chakwal.sed(Farah Noureen),0,0,0,0,0
+610,School Education Department,Chakwal,Chakwal,37410065.chakwal.sed(jabairpur),0,0,0,0,0
+611,School Education Department,Chakwal,Chakwal,37410063.chakwal.sed(misbah mukhtar),0,0,0,0,0
+612,School Education Department,Chakwal,Chakwal,37410061.chakwal.sed(shumaila),0,0,0,0,0
+613,School Education Department,Chakwal,Chakwal,37410059.chakwal.sed(rabia maryam),0,0,0,0,0
+614,School Education Department,Chakwal,Chakwal,37410058.chakwal.sed(Shakeeba arooj),0,0,0,0,0
+615,School Education Department,Chakwal,Chakwal,37410057.chakwal.sed(Amjad Mahmood),0,0,0,0,0
+616,School Education Department,Chakwal,Chakwal,37410056.chakwal.sed(aqsarashid),0,0,0,0,0
+617,School Education Department,Chakwal,Chakwal,37410055.chakwal.sed(Hassan Farhan),0,0,0,0,0
+618,School Education Department,Chakwal,Chakwal,37410054.chakwal.sed(Anwar maqbool),0,0,0,0,0
+619,School Education Department,Chakwal,Chakwal,37410053.chakwal.sed(Fozia Tabassam),0,0,0,0,0
+620,School Education Department,Chakwal,Chakwal,37410052.chakwal.sed(Intsar),0,0,0,0,0
+621,School Education Department,Chakwal,Chakwal,37410051.chakwal.sed(Muhammad ali),0,0,0,0,0
+622,School Education Department,Chakwal,Chakwal,37410050.chakwal.sed(Muhammad Sohail Afzal),0,0,0,0,0
+623,School Education Department,Chakwal,Chakwal,37410049.chakwal.sed(mtahir),0,0,0,0,0
+624,School Education Department,Chakwal,Chakwal,37410048.chakwal.sed(Muhammad Ali Imran Abbas),0,0,0,0,0
+625,School Education Department,Chakwal,Chakwal,37410039.chakwal.sed(Abdul Razzaq),0,0,0,0,0
+626,School Education Department,Chakwal,Chakwal,37410038.chakwal.sed(GHSS DHEEDWAL),0,0,0,0,0
+627,School Education Department,Chakwal,Chakwal,37410036.chakwal.sed(kashif),0,0,0,0,0
+628,School Education Department,Chakwal,Chakwal,37410035.chakwal.sed(basit hussain),0,0,0,0,0
+629,School Education Department,Chakwal,Chakwal,37410034.chakwal.sed(Qaiser Hussain),0,0,0,0,0
+630,School Education Department,Chakwal,Chakwal,37410033.chakwal.sed(Muhammad Awais Akhtar),0,0,0,0,0
+631,School Education Department,Chakwal,Chakwal,37410032.chakwal.sed(Aleem),0,0,0,0,0
+632,School Education Department,Chakwal,Chakwal,37410031.chakwal.sed(Arslan Hameed),0,0,0,0,0
+633,School Education Department,Chakwal,Chakwal,37410030.chakwal.sed(Nisar Ahmed),0,0,0,0,0
+634,School Education Department,Chakwal,Chakwal,37410029.chakwal.sed(Aamir Shehzad),0,0,0,0,0
+635,School Education Department,Chakwal,Chakwal,37410028.chakwal.sed(Afaq Ayub),0,0,0,0,0
+636,School Education Department,Chakwal,Chakwal,37410027.chakwal.sed(M Uzair Iqbal),0,0,0,0,0
+637,School Education Department,Chakwal,Chakwal,37410026.chakwal.sed(Aqib Abbas),0,0,0,0,0
+638,School Education Department,Chakwal,Chakwal,37410024.chakwal.sed(Aamir Abbas),0,0,0,0,0
+639,School Education Department,Chakwal,Chakwal,37410022.chakwal.sed(Shumaila Batool),0,0,0,0,0
+640,School Education Department,Chakwal,Chakwal,37410021.chakwal.sed(Yasir shabbir),0,0,0,0,0
+641,School Education Department,Chakwal,Chakwal,37410020.chakwal.sed(Ahsan Ali khan),0,0,0,0,0
+642,School Education Department,Chakwal,Chakwal,37410019.chakwal.sed(amar abbas),0,0,0,0,0
+643,School Education Department,Chakwal,Chakwal,37410017.chakwal.sed(haider ali),0,0,0,0,0
+644,School Education Department,Chakwal,Chakwal,37410016.chakwal.sed(WAQAR AZIZ),0,0,0,0,0
+645,School Education Department,Chakwal,Chakwal,37410015.chakwal.sed(muhammad shabir),0,0,0,0,0
+646,School Education Department,Chakwal,Chakwal,37410014.chakwal.sed(haseeb riaz),0,0,0,0,0
+647,School Education Department,Chakwal,Chakwal,37410012.chakwal.sed(GHS UC DHUDIAL),0,0,0,0,0
+648,School Education Department,Chakwal,Chakwal,37410011.chakwal.sed(Muhammad Azhar Shahzad),0,0,0,0,0
+649,School Education Department,Chakwal,Chakwal,37410009.chakwal.sed(ABRAR UL HAQ),0,0,0,0,0
+650,School Education Department,Chakwal,Chakwal,37410008.chakwal.sed(waqar ul haq),0,0,0,0,0
+651,School Education Department,Chakwal,Chakwal,37410005.chakwal.sed(Anees),0,0,0,0,0
+652,School Education Department,Chakwal,Chakwal,37410003.chakwal.sed(sajid mahmood),0,0,0,0,0
+653,School Education Department,Chakwal,Chakwal,37410001.chakwal.sed(Tanveer Alam),0,0,0,0,0
+654,School Education Department,Chakwal,Talagang,37420511.chakwal.sed(Malik Muhammad Asim),0,0,0,0,0
+655,School Education Department,Chakwal,Talagang,37420504.chakwal.sed(zara azam),0,0,0,0,0
+656,School Education Department,Chakwal,Talagang,37420355.chakwal.sed(Sidra Hanif),0,0,0,0,0
+657,School Education Department,Chakwal,Talagang,37420353.chakwal.sed(asma naz),0,0,0,0,0
+658,School Education Department,Chakwal,Talagang,37420351.chakwal.sed(samina yasmin),0,0,0,0,0
+659,School Education Department,Chakwal,Talagang,37420348.chakwal.sed(Atba),0,0,0,0,0
+660,School Education Department,Chakwal,Talagang,37420345.chakwal.sed(shamimakhtar),0,0,0,0,0
+661,School Education Department,Chakwal,Talagang,37420344.chakwal.sed(sajida shaheen),0,0,0,0,0
+662,School Education Department,Chakwal,Talagang,37420342.chakwal.sed(Shehla Tabassum),0,0,0,0,0
+663,School Education Department,Chakwal,Talagang,37420340.chakwal.sed(ghulam sughra),0,0,0,0,0
+664,School Education Department,Chakwal,Talagang,37420337.chakwal.sed(Shehla zaheer),0,0,0,0,0
+665,School Education Department,Chakwal,Talagang,37420336.chakwal.sed(Imam un nisa),0,0,0,0,0
+666,School Education Department,Chakwal,Talagang,37420335.chakwal.sed(Amina kausar),0,0,0,0,0
+667,School Education Department,Chakwal,Talagang,37420334.chakwal.sed(saima iltaf),0,0,0,0,0
+668,School Education Department,Chakwal,Talagang,37420333.chakwal.sed(madiha irum shafique),0,0,0,0,0
+669,School Education Department,Chakwal,Talagang,37420330.chakwal.sed(Sumaira Batool),0,0,0,0,0
+670,School Education Department,Chakwal,Talagang,37420328.chakwal.sed(Naseem Akhtar),0,0,0,0,0
+671,School Education Department,Chakwal,Talagang,37420326.chakwal.sed(Razia Khatoon),0,0,0,0,0
+672,School Education Department,Chakwal,Talagang,37420324.chakwal.sed(Razia Niazi),0,0,0,0,0
+673,School Education Department,Chakwal,Talagang,37420322.chakwal.sed(Mangewali),0,0,0,0,0
+674,School Education Department,Chakwal,Talagang,37420319.chakwal.sed(tahira),0,0,0,0,0
+675,School Education Department,Chakwal,Talagang,37420317.chakwal.sed(shakira noureen),0,0,0,0,0
+676,School Education Department,Chakwal,Talagang,37420303.chakwal.sed(Fatima bibi),0,0,0,0,0
+677,School Education Department,Chakwal,Talagang,37420302.chakwal.sed(Uzma Ayub),0,0,0,0,0
+678,School Education Department,Chakwal,Talagang,37420188.chakwal.sed(Gps Pachnand),0,0,0,0,0
+679,School Education Department,Chakwal,Talagang,37420187.chakwal.sed(Muhammad usman),0,0,0,0,0
+680,School Education Department,Chakwal,Talagang,37420184.chakwal.sed(Asif Iqbal),0,0,0,0,0
+681,School Education Department,Chakwal,Talagang,37420181.chakwal.sed(Shah Abdul Wageed),0,0,0,0,0
+682,School Education Department,Chakwal,Talagang,37420174.chakwal.sed(Nuzhat Perveen),0,0,0,0,0
+683,School Education Department,Chakwal,Talagang,37420173.chakwal.sed(GPS lawasouth),0,0,0,0,0
+684,School Education Department,Chakwal,Talagang,37420171.chakwal.sed(Akbar Hayat),0,0,0,0,0
+685,School Education Department,Chakwal,Talagang,37420169.chakwal.sed(SYED ALI HUSSNAIN SHAH HAMDANI),0,0,0,0,0
+686,School Education Department,Chakwal,Talagang,37420161.chakwal.sed(Waqas Haider),0,0,0,0,0
+687,School Education Department,Chakwal,Talagang,37420160.chakwal.sed(SHAHID YAR),0,0,0,0,0
+688,School Education Department,Chakwal,Talagang,37420159.chakwal.sed(Arshad Mahmood),0,0,0,0,0
+689,School Education Department,Chakwal,Talagang,37420156.chakwal.sed(Muhammad Riaz),0,0,0,0,0
+690,School Education Department,Chakwal,Talagang,37420152.chakwal.sed(shakeel ahmed),0,0,0,0,0
+691,School Education Department,Chakwal,Talagang,37420138.chakwal.sed(GPS DHOK KHANA),0,0,0,0,0
+692,School Education Department,Chakwal,Talagang,37420136.chakwal.sed(Muhammad izhar ul haq),0,0,0,0,0
+693,School Education Department,Chakwal,Talagang,37420088.chakwal.sed(um e kulsoom),0,0,0,0,0
+694,School Education Department,Chakwal,Talagang,37420085.chakwal.sed(Naeema Safeer),0,0,0,0,0
+695,School Education Department,Chakwal,Talagang,37420083.chakwal.sed(Noureen Akhter),0,0,0,0,0
+696,School Education Department,Chakwal,Talagang,37420065.chakwal.sed(Fareeha Firdous),0,0,0,0,0
+697,School Education Department,Chakwal,Talagang,37420063.chakwal.sed(Muhammad Nabeel Asim),0,0,0,0,0
+698,School Education Department,Chakwal,Talagang,37420062.chakwal.sed(Atta ur Rehman),0,0,0,0,0
+699,School Education Department,Chakwal,Talagang,37420061.chakwal.sed(Riaz Ahmed),0,0,0,0,0
+700,School Education Department,Chakwal,Talagang,37420060.chakwal.sed(GHS Dhoke mail),0,0,0,0,0
+701,School Education Department,Chakwal,Talagang,37420056.chakwal.sed(Mushtaq Hussain),0,0,0,0,0
+702,School Education Department,Chakwal,Talagang,37420050.chakwal.sed(Muddasir Nazar),0,0,0,0,0
+703,School Education Department,Chakwal,Talagang,37420042.chakwal.sed(Nighat Perveen),0,0,0,0,0
+704,School Education Department,Chakwal,Talagang,37420041.chakwal.sed(ansar paveen),0,0,0,0,0
+705,School Education Department,Chakwal,Talagang,37420019.chakwal.sed(hafeez),0,0,0,0,0
+706,School Education Department,Chakwal,Talagang,37420017.chakwal.sed(Amjad Shahzad),0,0,0,0,0
+707,School Education Department,Chakwal,Talagang,37420016.chakwal.sed(Ghulam Muhammad),0,0,0,0,0
+708,School Education Department,Chakwal,Talagang,37420005.chakwal.sed(bashirulhassan),0,0,0,0,0

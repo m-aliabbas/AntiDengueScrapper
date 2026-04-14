@@ -147,15 +147,59 @@ def on_message(client: NewClient, message: MessageEv):
         return
 
     print(f"📩 New message event: {message}")
+    
+    # Skip if message is from ourselves
+    if message.Info.MessageSource.IsFromMe:
+        print("⏭️ Skipping message from self")
+        return
+    
+    # Skip if message is from a group (optional - remove this if you want group messages too)
+    if message.Info.MessageSource.IsGroup:
+        print("⏭️ Skipping group message")
+        return
+    
     sender = str(message.Info.MessageSource.Sender.User)
     print(f"📩 New message from {sender}")
 
+    # Get the chat JID to reply to (this is the correct way to reply)
+    chat_jid = message.Info.MessageSource.Chat
+    print(f"💬 Chat JID: {chat_jid}")
+
+    # Extract message text
+    text = None
     try:
-        if message.Message.extendedTextMessage:
+        # Check for regular text message
+        if message.Message.conversation:
+            text = message.Message.conversation
+            print(f"💬 Text (conversation): {text}")
+        # Check for extended text message (replies, links, etc.)
+        elif message.Message.extendedTextMessage:
             text = message.Message.extendedTextMessage.text
-            print(f"💬 Text: {text}")
+            print(f"💬 Text (extended): {text}")
+        
+        # Echo back the message (simple example - customize as needed)
+        if text and text.strip():
+            try:
+                print(f"📤 Echoing message back to sender...")
+                
+                # Simple echo response
+                echo_response = f"Echo: {text}"
+                
+                # Send the echo response back to the chat
+                response = client.send_message(chat_jid, echo_response)
+                print(f"✅ Message sent successfully! Response: {response}")
+                print(f"✅ Sent to {sender}: {echo_response[:100]}...")
+            except Exception as send_error:
+                print(f"❌ Failed to send response: {send_error}")
+                import traceback
+                traceback.print_exc()
+        else:
+            print("⚠️ No text content found in message")
+            
     except Exception as e:
-        print(f"⚠️ Failed to parse message text: {e}")
+        print(f"⚠️ Failed to process message: {e}")
+        import traceback
+        traceback.print_exc()
 
 def connect_client_loop():
     """

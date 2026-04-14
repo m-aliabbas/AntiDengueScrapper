@@ -1,6 +1,6 @@
 fastapi
 uvicorn
-neonize
+neonize==0.3.16.post0
 pandas
 selenium
 webdriver-manager
