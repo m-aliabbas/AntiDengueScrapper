@@ -3,6 +3,7 @@ import sys
 import time
 import datetime
 import threading
+import asyncio
 from contextlib import asynccontextmanager
 from typing import Optional
 
@@ -13,6 +14,19 @@ from pydantic import BaseModel, Field
 from neonize.client import NewClient
 from neonize.events import ConnectedEv, MessageEv, PairStatusEv, LoggedOutEv
 from neonize.utils import build_jid
+
+# Import the AI agent
+try:
+    from agent import sarcasm_agent
+    from google.adk.runners import InMemoryRunner
+    AI_AGENT_AVAILABLE = True
+    print("AI Agent imported successfully")
+except Exception as e:
+    print(f" AI Agent import failed: {e}")
+    print(" Will use echo mode as fallback")
+    AI_AGENT_AVAILABLE = False
+    prompt_generator_agent = None
+    InMemoryRunner = None
 
 
 DEFAULT_PHONE = "923171585452"
@@ -52,6 +66,52 @@ def set_status(
         connection_status["message"] = message
     if pairing_code is not None:
         connection_status["pairing_code"] = pairing_code
+
+
+# AI Agent Response Generator
+def generate_ai_response_sync(user_message: str) -> str:
+    """Generate an AI response using the agent from agent.py"""
+    try:
+        print(f"🔍 Starting AI response generation...")
+        
+        # Create a new event loop for this thread
+        try:
+            loop = asyncio.get_event_loop()
+            if loop.is_running():
+                # If loop is already running, create a new one
+                loop = asyncio.new_event_loop()
+                asyncio.set_event_loop(loop)
+        except RuntimeError:
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+        
+        # Run the async agent
+        runner = InMemoryRunner(agent=sarcasm_agent)
+        print(f" Runner created, executing agent...")
+        
+        async def run_agent():
+            return await runner.run_debug(user_message)
+        
+        events = loop.run_until_complete(run_agent())
+        print(f" Agent execution completed, extracting response...")
+        
+        # Extract the response text from events
+        for event in reversed(events):
+            if hasattr(event, "content") and event.content and hasattr(event.content, "parts"):
+                for part in event.content.parts:
+                    if hasattr(part, "text") and part.text:
+                        response_text = part.text.strip()
+                        print(f"✅ Response extracted: {response_text[:100]}...")
+                        return response_text
+        
+        print(" No response text found in events")
+        return "I'm sorry, I couldn't generate a response at this time."
+        
+    except Exception as e:
+        print(f" Error generating AI response: {e}")
+        import traceback
+        traceback.print_exc()
+        return "I'm sorry, I encountered an error processing your message."
 
 
 # Pydantic models for request/response
@@ -99,7 +159,7 @@ class MessageInfo(BaseModel):
 # Event handlers
 @client.event(ConnectedEv)
 def on_connected(client: NewClient, _: ConnectedEv):
-    print("✅ Connection Established! You are now online.")
+    print("Connection Established! You are now online.")
     set_status(
         connected=True,
         message="Connected successfully",
@@ -117,13 +177,13 @@ def on_connected(client: NewClient, _: ConnectedEv):
 
         print(f"\nFound {len(groups)} joined groups:\n")
     except Exception as e:
-        print(f"⚠️ Failed to fetch joined groups: {e}")
+        print(f"Failed to fetch joined groups: {e}")
 
 
 @client.event(PairStatusEv)
 def on_pair_status(client: NewClient, pair: PairStatusEv):
     if pair.ID.User:
-        print(f"✅ Logged in as: {pair.ID.User}")
+        print(f" Logged in as: {pair.ID.User}")
         set_status(
             connected=True,
             message=f"Logged in as: {pair.ID.User}",
@@ -146,24 +206,24 @@ def on_message(client: NewClient, message: MessageEv):
     if not message:
         return
 
-    print(f"📩 New message event: {message}")
+    print(f"New message event: {message}")
     
     # Skip if message is from ourselves
     if message.Info.MessageSource.IsFromMe:
-        print("⏭️ Skipping message from self")
+        print("Skipping message from self")
         return
     
-    # Skip if message is from a group (optional - remove this if you want group messages too)
+    # Skip if message is from a group (optional - remove this if you want group echoes too)
     if message.Info.MessageSource.IsGroup:
-        print("⏭️ Skipping group message")
+        print("Skipping group message")
         return
     
     sender = str(message.Info.MessageSource.Sender.User)
-    print(f"📩 New message from {sender}")
+    print(f"New message from {sender}")
 
     # Get the chat JID to reply to (this is the correct way to reply)
     chat_jid = message.Info.MessageSource.Chat
-    print(f"💬 Chat JID: {chat_jid}")
+    print(f"Chat JID: {chat_jid}")
 
     # Extract message text
     text = None
@@ -171,35 +231,37 @@ def on_message(client: NewClient, message: MessageEv):
         # Check for regular text message
         if message.Message.conversation:
             text = message.Message.conversation
-            print(f"💬 Text (conversation): {text}")
+            print(f"Text (conversation): {text}")
         # Check for extended text message (replies, links, etc.)
         elif message.Message.extendedTextMessage:
             text = message.Message.extendedTextMessage.text
-            print(f"💬 Text (extended): {text}")
+            print(f"Text (extended): {text}")
         
-        # Echo back the message (simple example - customize as needed)
+        # Generate AI response and send back to the sender
         if text and text.strip():
             try:
-                print(f"📤 Echoing message back to sender...")
+                print(f"Generating AI response for: {text}")
                 
-                # Simple echo response
-                echo_response = f"Echo: {text}"
+                # Generate AI response using the agent
+                ai_response = generate_ai_response_sync(text)
+                print(f"AI Response: {ai_response}")
                 
-                # Send the echo response back to the chat
-                response = client.send_message(chat_jid, echo_response)
-                print(f"✅ Message sent successfully! Response: {response}")
-                print(f"✅ Sent to {sender}: {echo_response[:100]}...")
+                # Send the AI response back to the chat (not reconstructed JID)
+                response = client.send_message(chat_jid, ai_response)
+                print(f"AI response sent successfully! Response: {response}")
+                print(f"Sent to {sender}: {ai_response[:100]}...")
             except Exception as send_error:
-                print(f"❌ Failed to send response: {send_error}")
+                print(f"Failed to send AI response: {send_error}")
                 import traceback
                 traceback.print_exc()
         else:
-            print("⚠️ No text content found in message")
+            print("No text content found in message")
             
     except Exception as e:
-        print(f"⚠️ Failed to process message: {e}")
+        print(f"Failed to process message: {e}")
         import traceback
         traceback.print_exc()
+
 
 def connect_client_loop():
     """
@@ -208,7 +270,7 @@ def connect_client_loop():
     try:
         client.connect()
     except Exception as e:
-        print(f"❌ Error in WhatsApp connect loop: {e}")
+        print(f"Error in WhatsApp connect loop: {e}")
         set_status(
             connected=False,
             message=f"Connection error: {str(e)}",
@@ -226,7 +288,7 @@ def run_whatsapp_client():
         phone_number = os.getenv("WHATSAPP_PHONE", DEFAULT_PHONE)
         use_qr = os.getenv("USE_QR", "0") == "1"
 
-        print(f"📞 Phone number for authentication: {phone_number}")
+        print(f" Phone number for authentication: {phone_number}")
 
         # Start client connection loop first
         connect_thread = threading.Thread(target=connect_client_loop, daemon=True)
@@ -243,12 +305,12 @@ def run_whatsapp_client():
                 message="Connected using existing session",
                 pairing_code=None,
             )
-            print("✅ Existing session detected. No new pairing required.")
+            print("Existing session detected. No new pairing required.")
             return
 
         if use_qr:
-            print("📱 Using QR Code authentication (USE_QR enabled)")
-            print("📱 Scan the QR code in the terminal")
+            print("Using QR Code authentication (USE_QR enabled)")
+            print("Scan the QR code in the terminal")
             set_status(
                 connected=False,
                 message="Waiting for QR code scan",
@@ -256,8 +318,8 @@ def run_whatsapp_client():
             )
             return
 
-        print(f"📞 Attempting pairing code authentication for: {phone_number}")
-        print("💡 Tip: If you get rate limited, restart with: USE_QR=1 python main.py")
+        print(f"Attempting pairing code authentication for: {phone_number}")
+        print("Tip: If you get rate limited, restart with: USE_QR=1 python main.py")
 
         try:
             pairing_code = client.PairPhone(
@@ -266,7 +328,7 @@ def run_whatsapp_client():
             )
             pairing_code = str(pairing_code)
 
-            print(f"🔑 Your pairing code: {pairing_code}")
+            print(f"Your pairing code: {pairing_code}")
             print("Enter this code in WhatsApp → Linked Devices → Link with phone number")
 
             set_status(
@@ -277,12 +339,12 @@ def run_whatsapp_client():
 
         except Exception as pair_error:
             error_msg = str(pair_error)
-            print(f"❌ Pairing error: {error_msg}")
+            print(f"Pairing error: {error_msg}")
 
             if "429" in error_msg or "rate" in error_msg.lower() or "overlimit" in error_msg.lower():
                 print("")
-                print("⚠️ Rate limit detected! Falling back to QR code authentication...")
-                print("📱 Scan the QR code in the terminal")
+                print("Rate limit detected! Falling back to QR code authentication...")
+                print("Scan the QR code in the terminal")
                 print("")
 
                 set_status(
@@ -294,7 +356,7 @@ def run_whatsapp_client():
                 raise pair_error
 
     except Exception as e:
-        print(f"❌ Error connecting WhatsApp client: {e}")
+        print(f"Error connecting WhatsApp client: {e}")
         set_status(
             connected=False,
             message=f"Connection error: {str(e)}",
@@ -309,7 +371,7 @@ def start_whatsapp_background():
     thread = threading.Thread(target=run_whatsapp_client, daemon=True)
     thread.start()
     startup_state["thread_started"] = True
-    print("🚀 WhatsApp client startup launched in background")
+    print("WhatsApp client startup launched in background")
 
 
 @asynccontextmanager
@@ -390,9 +452,9 @@ async def send_message(request: SendMessageRequest):
 
     try:
         if client.is_on_whatsapp(request.phone_number):
-            print(f"✅ {request.phone_number} is on WhatsApp. Sending message...")
+            print(f"{request.phone_number} is on WhatsApp. Sending message...")
         else:
-            print(f"⚠️ {request.phone_number} is NOT on WhatsApp. Message may fail.")
+            print(f"{request.phone_number} is NOT on WhatsApp. Message may fail.")
 
         jid = build_jid(request.phone_number)
         client.send_message(jid, request.message)
@@ -437,6 +499,8 @@ async def send_group_message(request: SendMessageRequest):
             status_code=500,
             detail=f"Failed to send group message: {str(e)}",
         )
+
+
 @app.post("/send-image", response_model=SendMessageResponse, tags=["Messages"])
 async def send_image(request: SendImageRequest):
     """
@@ -626,12 +690,12 @@ async def restart_server():
 
 
 if __name__ == "__main__":
-    print("🚀 Starting WhatsApp Bot API...")
-    print("📱 If not authenticated, scan the QR code in the terminal")
-    print("📡 Pairing code mode is enabled by default unless USE_QR=1")
-    print("🔐 Pairing code will be available in terminal and via /status")
-    print("📡 API will be available at http://localhost:8000")
-    print("📚 API docs available at http://localhost:8000/docs")
-    print(f"📞 Phone number: {os.getenv('WHATSAPP_PHONE', DEFAULT_PHONE)}")
+    print("Starting WhatsApp Bot API...")
+    print("If not authenticated, scan the QR code in the terminal")
+    print("Pairing code mode is enabled by default unless USE_QR=1")
+    print("Pairing code will be available in terminal and via /status")
+    print("API will be available at http://localhost:8000")
+    print("API docs available at http://localhost:8000/docs")
+    print(f"Phone number: {os.getenv('WHATSAPP_PHONE', DEFAULT_PHONE)}")
 
     uvicorn.run(app, host="0.0.0.0", port=8000)
